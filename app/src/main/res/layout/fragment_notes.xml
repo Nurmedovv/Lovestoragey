@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 📝 LAYOUT СТРАНИЦЫ ЗАМЕТОК С КНОПКАМИ РЕДАКТИРОВАНИЯ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:padding="16dp">
+
+    <!-- 🏷️ ЗАГОЛОВОК ЗАМЕТОК -->
+    <TextView
+        android:id="@+id/notesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notes_title_label"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <!-- 🔍 ПОИСК ПО ЗАМЕТКАМ -->
+    <EditText
+        android:id="@+id/searchInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:background="@drawable/glass_effect"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:drawablePadding="8dp"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:hint="@string/notes_search_hint" />
+
+    <!-- ✏️ ПОЛЕ ДЛЯ ВВОДА НОВОЙ ЗАМЕТКИ (СТЕКЛЯННЫЙ ЭФФЕКТ) -->
+    <EditText
+        android:id="@+id/noteInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="top"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:background="@drawable/glass_effect"
+        android:padding="16dp"
+        android:lineSpacingExtra="6dp"
+        android:minLines="3"
+        android:maxLines="5"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:imeOptions="actionDone"
+        android:textStyle="normal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:longClickable="true"
+        android:contextClickable="true"
+        android:hint="@string/notes_hint" />
+
+    <!-- 🎯 КНОПКИ ДЛЯ РАБОТЫ С ЗАМЕТКАМИ (ВСЕ СО СТЕКЛЯННЫМ ЭФФЕКТОМ) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <!-- 💾 КНОПКА ДОБАВЛЕНИЯ НОВОЙ ЗАМЕТКИ -->
+        <Button
+            android:id="@+id/addNoteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/notes_save_button"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/glass_button_selector"
+            android:padding="12dp"
+            android:layout_marginEnd="8dp" />
+
+        <!-- 💾 КНОПКА СОХРАНЕНИЯ РЕДАКТИРОВАНИЯ -->
+        <Button
+            android:id="@+id/saveEditButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/notes_save"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/glass_button_selector"
+            android:padding="12dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="gone" />
+
+        <!-- ❌ КНОПКА ОТМЕНЫ РЕДАКТИРОВАНИЯ -->
+        <Button
+            android:id="@+id/cancelEditButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/notes_cancel"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/glass_button_selector"
+            android:padding="12dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <!-- 📋 СПИСОК СОХРАНЕННЫХ ЗАМЕТОК -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notes_saved_label"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 🎯 RECYCLERVIEW ДЛЯ СПИСКА ЗАМЕТОК -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>

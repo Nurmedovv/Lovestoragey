@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="accent">#FFFF4081</color>
+    <color name="text_primary_dark">#FFFFFFFF</color>
+    <color name="text_secondary_dark">#FFBBBBBB</color>
+    <color name="text_hint_light">#88FFFFFF</color>
+    <color name="text_hint_dark">#FFFFE4E1</color>
+    <color name="text_secondary_light">#FFFFE4E1</color>
+
+    <!-- фон диалогов -->
+    <color name="dialog_bg_light">#FFFFFFFF</color>
+    <color name="dialog_bg_dark">#FF2D2D2D</color>
+
+    <!-- пресеты цвета шрифта -->
+    <color name="preset_light_blue">#FFBBDEFB</color>
+    <color name="preset_light_green">#FFC8E6C9</color>
+    <color name="preset_light_pink">#FFF8BBD0</color>
+    <color name="preset_light_yellow">#FFFFF9C4</color>
+    <color name="preset_light_purple">#FFE1BEE7</color>
+    <color name="preset_light_orange">#FFFFE0B2</color>
+    <color name="preset_gray">#FFB0BEC5</color>
+    <color name="preset_teal">#FF80CBC4</color>
+    <color name="preset_coral">#FFEF9A9A</color>
+    <color name="preset_lavender">#FFCE93D8</color>
+    <color name="preset_misty_rose">#FFFFE4E1</color>
+    <color name="nav_inactive">#CCFFFFFF</color>
+</resources>

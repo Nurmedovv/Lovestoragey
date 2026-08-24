@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lovestor(age)y</string>
+    <string name="message_format">💖 %s 💖</string>
+
+    <!-- Общие -->
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="delete_all">Удалить все</string>
+    <string name="error_title">Ошибка</string>
+
+    <!-- Язык -->
+    <string name="language_title">Язык</string>
+    <string name="language_system">Системный</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_english">English</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_italian">Italiano</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_polish">Polski</string>
+    <string name="language_turkish">Türkçe</string>
+    <string name="language_arabic">العربية</string>
+
+    <!-- Layout: fragment_gallery -->
+    <string name="gallery_preview_desc">Превью последнего фото</string>
+    <string name="gallery_open_hint">Нажмите чтобы открыть галерею</string>
+
+    <!-- Layout: fragment_files -->
+    <string name="files_preview_desc">Превью последнего файла</string>
+    <string name="files_open_hint">Нажмите чтобы открыть все файлы</string>
+
+    <!-- Layout: fragment_notes -->
+    <string name="notes_search_hint">Поиск по заметкам…</string>
+    <string name="notes_hint">Напиши здесь всё, что приходит в голову…</string>
+
+    <!-- Layout: fragment_calendar -->
+    <string name="calendar_love_text">Я тебя очень сильно люблю💖</string>
+    <string name="calendar_quote">Время пройдет, но моя любовь к тебе никогда</string>
+
+    <!-- Мессенджер пары -->
+    <string name="message_dialog_title">Сообщение партнёру</string>
+    <string name="message_dialog_hint">Максимум 20 символов</string>
+    <string name="message_input_hint">Напиши что-нибудь…</string>
+    <string name="send">Отправить</string>
+    <string name="message_send_error">Не удалось отправить</string>
+    <string name="message_last_sent">Последнее сообщение:</string>
+    <string name="auth_error">Ошибка авторизации</string>
+
+    <!-- Авторизация -->
+    <string name="sign_in_google">Войти через Google</string>
+    <string name="sign_out">Выйти</string>
+    <string name="auth_required">Сначала войдите через Google</string>
+    <string name="auth_signed_in">Вы вошли как %s</string>
+
+    <!-- Привязка пары -->
+    <string name="pairing_title">Привязка к партнёру</string>
+    <string name="pairing_create">Создать пару</string>
+    <string name="pairing_or">— или —</string>
+    <string name="pairing_join">Вступить по коду</string>
+    <string name="pairing_back">Назад</string>
+    <string name="pairing_code_hint">Код из 6 символов</string>
+    <string name="pairing_code_title">Код вашей пары</string>
+    <string name="pairing_code_message">Передайте этот код партнёру:\n\n%s</string>
+    <string name="pairing_code_error">Код должен содержать 6 символов</string>
+    <string name="pairing_success">Вы привязаны к партнёру!</string>
+    <string name="pairing_not_found">Пара не найдена. Проверьте код.</string>
+    <string name="pairing_paired">Привязано к паре</string>
+    <string name="pairing_not_paired">Не привязано</string>
+    <string name="pairing_unpair">Отвязаться</string>
+    <string name="pairing_unpair_title">Отвязаться от пары?</string>
+    <string name="pairing_unpair_message">Вы уверены, что хотите отвязаться от пары?</string>
+    <string name="pairing_unpaired">Вы отвязались от пары</string>
+    <string name="pairing_regenerate">Пересоздать код</string>
+    <string name="pairing_regenerate_title">Пересоздать код?</string>
+    <string name="pairing_regenerate_message">Старый код перестанет работать. Партнёр должен будет войти заново.</string>
+    <string name="ok">OK</string>
+
+    <!-- Firebase Web Client ID -->
+    <string name="default_web_client_id">633769435038-5jne4601lve97h3r0ai1eg08j3v21raj.apps.googleusercontent.com</string>
+
+    <!-- Layout: item_note -->
+    <string name="note_placeholder">Текст заметки…</string>
+    <string name="note_pin_desc">Закрепить</string>
+    <string name="note_edit_desc">Редактировать</string>
+    <string name="note_delete_desc">Удалить</string>
+
+    <!-- Layout: item_file -->
+    <string name="file_preview_desc">Превью файла</string>
+    <string name="video_play_desc">Воспроизвести видео</string>
+
+    <!-- Layout: item_calendar_month -->
+    <string name="month_default">Января</string>
+
+    <!-- Layout: activity_lock_screen -->
+    <string name="lock_welcome">Добро пожаловать</string>
+    <string name="lock_prompt">Введите PIN-код или используйте биометрию</string>
+    <string name="lock_login">Войти</string>
+
+    <!-- Layout: dialog_date_range_picker -->
+    <string name="date_range_from">с</string>
+    <string name="date_range_to">по</string>
+    <string name="date_range_close">Закрыть</string>
+    <string name="date_range_save">Сохранить</string>
+
+    <!-- Layout: fragment_settings -->
+    <string name="settings_date_to">по</string>
+    <string name="settings_title_label">⚙️ Настройки</string>
+    <string name="settings_date_range">📅 Диапазон: с</string>
+    <string name="settings_vibration">📳 Вибрация</string>
+    <string name="settings_auth">🔒 Защита приложения</string>
+    <string name="settings_lock_timeout">⏱ Блокировка через</string>
+    <string name="settings_lock_timeout_value">1 мин</string>
+    <string name="settings_language">🌐 Язык</string>
+    <string name="settings_background">🎨 Фон приложения</string>
+    <string name="settings_background_default">Стандартный</string>
+    <string name="settings_background_set">Выбрать изображение</string>
+    <string name="settings_background_clear">Убрать фон</string>
+    <string name="settings_glass_opacity">Прозрачность интерфейса</string>
+    <string name="settings_dialog_opacity">Прозрачность диалогов</string>
+    <string name="settings_font_color">Цвет шрифта</string>
+    <string name="settings_statistics">📊 Статистика</string>
+    <string name="stats_photos_placeholder">📸 Фото: 0</string>
+    <string name="stats_files_placeholder">📁 Файлы: 0</string>
+    <string name="stats_calendar_files_placeholder">📅 Файлы дат: 0</string>
+    <string name="stats_notes_placeholder">📝 Заметки: 0</string>
+    <string name="stats_storage_placeholder">💾 Память: 0 MB</string>
+
+    <!-- Layout: fragment_calendar -->
+    <string name="calendar_button">💌 Нажми на кнопочку 💌</string>
+
+    <!-- Layout: fragment_notes -->
+    <string name="notes_title_label">📝 Мои мысли</string>
+    <string name="notes_save_button">💖 Сохранить заметку</string>
+    <string name="notes_save">💾 Сохранить</string>
+    <string name="notes_cancel">❌ Отмена</string>
+    <string name="notes_saved_label">📋 Мои сохраненные заметки:</string>
+
+    <!-- Layout: fragment_files -->
+    <string name="files_last_file">📄 Последний файл</string>
+
+    <!-- Layout: fragment_gallery -->
+    <string name="gallery_last_photo">📸 Последнее фото</string>
+
+    <!-- Layout: dialog_date_simple -->
+    <string name="date_dialog_example">📅 14 Февраля</string>
+    <string name="date_files_title">📁 Файлы этой даты</string>
+    <string name="date_files_zero">📁 Файлов: 0</string>
+
+    <!-- Layout: dialog_page_files -->
+    <string name="dialog_files_title">📁 Все файлы</string>
+    <string name="dialog_files_count">📁 Файлов: 0</string>
+
+    <!-- Layout: dialog_page_gallery -->
+    <string name="dialog_photos_title">🖼️ Все фото</string>
+    <string name="dialog_photos_count">🖼️ Фото: 0</string>
+
+
+    <!-- Диалог удаления -->
+    <string name="delete_all_title">Удалить все файлы?</string>
+    <string name="delete_all_message">Вы уверены, что хотите удалить все файлы? Это действие нельзя отменить.</string>
+    <string name="delete_all_date_message">Вы уверены, что хотите удалить все файлы этой даты? Это действие нельзя отменить.</string>
+
+    <!-- MainActivity -->
+    <string name="permissions_not_granted">Некоторые разрешения не предоставлены</string>
+
+    <!-- Gallery -->
+    <string name="gallery_description">Здесь будут наши самые красивые фото</string>
+    <string name="pick_photos_title">Выберите фото</string>
+    <string name="slideshow_counter">Слайдшоу: %1$d/%2$d</string>
+    <string name="slideshow_interval_title">Интервал слайдов</string>
+    <string name="interval_3_sec">3 сек</string>
+    <string name="interval_5_sec">5 сек</string>
+    <string name="interval_7_sec">7 сек (по умолчанию)</string>
+    <string name="interval_10_sec">10 сек</string>
+    <string name="interval_15_sec">15 сек</string>
+    <string name="slideshow_started">Слайдшоу запущено</string>
+    <string name="slideshow_stopped">Слайдшоу остановлено</string>
+
+    <!-- Files -->
+    <string name="files_title">\uD83E\uDD7A</string>
+    <string name="files_subtitle">Все наши файлы в одном месте</string>
+    <string name="pick_files_title">Выберите файлы</string>
+    <string name="no_files_message">Нет загруженных файлов\nНажмите \uD83D\uDCE5 чтобы добавить</string>
+    <string name="no_file_picker">Нет приложения для выбора файлов</string>
+
+    <!-- Notes -->
+    <string name="notes_title">\uD83D\uDCDD Мои мысли</string>
+    <string name="note_hint_add">Напиши здесь всё, что приходит в голову…</string>
+    <string name="note_hint_edit">Редактируй заметку…</string>
+    <string name="note_saved_toast">Заметка сохранена!</string>
+    <string name="note_empty_warning">Напишите что-нибудь перед сохранением</string>
+    <string name="note_editing_toast">Редактируйте заметку</string>
+    <string name="note_updated_toast">Заметка обновлена!</string>
+    <string name="note_empty_error">Заметка не может быть пустой</string>
+    <string name="note_deleted">Заметка удалена</string>
+    <string name="undo">Отмена</string>
+
+    <!-- Settings -->
+    <string name="settings_title">\u2699\uFE0F Настройки</string>
+    <string name="error_date_range_invalid">Дата начала не может быть позже даты окончания</string>
+    <string name="auth_enabled_toast">Аутентификация включена</string>
+    <string name="lock_timeout_dialog_title">Блокировка через</string>
+    <string name="timeout_immediately">Сразу</string>
+    <string name="timeout_30_sec">30 сек</string>
+    <string name="timeout_1_min">1 мин</string>
+    <string name="timeout_5_min">5 мин</string>
+    <string name="timeout_15_min">15 мин</string>
+    <string name="timeout_30_min">30 мин</string>
+    <string name="timeout_1_hour">1 час</string>
+    <string name="timeout_never">Никогда</string>
+
+    <!-- Biometric -->
+    <string name="biometric_setup_title">Настройка защиты</string>
+    <string name="biometric_setup_subtitle">Подтвердите отпечатком или лицом</string>
+    <string name="biometric_negative_button">Отмена</string>
+    <string name="biometric_app_title">Вход в приложение</string>
+    <string name="biometric_app_subtitle">Используйте отпечаток или лицо</string>
+    <string name="enter_pin">Ввести PIN</string>
+
+    <!-- PIN -->
+    <string name="pin_title">PIN-код</string>
+    <string name="pin_setup_message">Введите 4-значный PIN-код для запасного входа:</string>
+    <string name="pin_saved_toast">PIN-код сохранён</string>
+    <string name="pin_validation_error">PIN-код должен содержать ровно 4 цифры</string>
+    <string name="pin_enter_prompt">Введите PIN-код</string>
+    <string name="pin_incorrect_remaining">Неверный PIN. Осталось попыток: %d</string>
+    <string name="lockout_countdown">Блокировка: %d сек.</string>
+
+    <!-- Statistics -->
+    <string name="stats_photos">\uD83D\uDCF8 Фото: %d</string>
+    <string name="stats_files">\uD83D\uDCC1 Файлы: %d</string>
+    <string name="stats_calendar_files">\uD83D\uDCC5 Файлы дат: %d</string>
+    <string name="stats_storage">\uD83D\uDCBE Память: %.1f MB</string>
+    <string name="stats_notes">\uD83D\uDCDD Заметки: %d</string>
+
+    <!-- Диалоги галереи/файлов -->
+    <string name="dialog_all_photos">\uD83D\uDDBC️ Все фото</string>
+    <string name="dialog_photos_prefix">\uD83D\uDDBC️ Фото:</string>
+    <string name="dialog_all_files">\uD83D\uDCC1 Все файлы</string>
+    <string name="dialog_files_prefix">\uD83D\uDCC1 Файлов:</string>
+
+    <!-- Диалог даты -->
+    <string name="date_files_count">\uD83D\uDCC1 Файлов: %d</string>
+    <string name="pick_files_for_date">Выберите файлы для даты</string>
+
+    <!-- Никнейм -->
+    <string name="nickname_title">Изменить никнейм</string>
+    <string name="nickname_updated">Никнейм обновлён</string>
+    <string name="nickname_label">Никнейм</string>
+    <string name="message_placeholder">—</string>
+
+    <!-- Партнёр -->
+    <string name="partner_default">Партнёр</string>
+    <string name="me_default">Я</string>
+    <string name="waiting_partner">ожидание партнёра</string>
+    <string name="pairing_info_message">Вы: %1$s\nПартнёр: %2$s\nКод: %3$s</string>
+
+    <!-- Ошибки -->
+    <string name="signin_error">Ошибка входа: %1$d</string>
+
+    <!-- Уведомления -->
+    <string name="notification_channel_name">Точные напоминания</string>
+    <string name="notification_channel_desc">Уведомления в точное время</string>
+    <string name="notification_channel_messages_name">Сообщения партнёра</string>
+    <string name="notification_channel_messages_desc">Уведомления о сообщениях от партнёра</string>
+    <string name="notification_morning_title">\uD83D\uDC1D Доброе утро, пчолик \uD83D\uDC96</string>
+    <string name="notification_morning_text">Пусть твой день принесёт тебе только радость, я тебя люблю</string>
+    <string name="notification_night_title">\uD83C\uDF19 Спокойной ночи, маленькая моя \uD83D\uDC95</string>
+    <string name="notification_night_text">Я тебя очень сильно люблю. Целую, обнимаю</string>
+    <string name="notification_random_title">Тепло от меня \uD83D\uDC96</string>
+
+    <!-- Ошибки файлов -->
+    <string name="error_open_image">Не удалось открыть изображение</string>
+    <string name="error_file_not_found">Файл не найден</string>
+    <string name="error_install_file_app">Установите приложение для открытия файлов</string>
+    <string name="error_open_file">Не удалось открыть файл</string>
+
+    <!-- Праздники -->
+    <string name="holiday_new_year">Новый год</string>
+
+    <!-- Экспорт/импорт -->
+    <string name="settings_backup">💾 Резервная копия</string>
+    <string name="settings_export">📤 Экспорт данных</string>
+    <string name="settings_import">📥 Импорт данных</string>
+    <string name="export_started">Экспорт начат…</string>
+    <string name="export_success">Экспорт завершён</string>
+    <string name="export_error">Ошибка экспорта</string>
+    <string name="export_options_title">Что экспортировать?</string>
+    <string name="export_option_notes">Заметки</string>
+    <string name="export_option_files">Файлы</string>
+    <string name="export_option_background">Фон</string>
+    <string name="export_option_settings">Настройки</string>
+    <string name="import_started">Импорт начат…</string>
+    <string name="import_success">Импорт завершён</string>
+    <string name="import_restart">Импорт завершен, перезапустите приложение</string>
+    <string name="import_error">Ошибка импорта</string>
+    <string name="import_confirm_title">Импорт данных</string>
+    <string name="import_confirm_message">Заменить текущие данные импортированными?</string>
+    <string name="import_confirm_replace">Заменить</string>
+    <string name="import_confirm_merge">Объединить</string>
+    <string name="export_share">Поделиться архивом</string>
+    <string name="export_saved_to_downloads">Сохранено в Загрузки</string>
+    <string name="color_picker_title">Выберите цвет</string>
+    <string name="color_picker_custom">Свой цвет (нажмите для редактирования)</string>
+    <string name="export_notification_preparing">Подготовка экспорта...</string>
+    <string name="export_notification_manifest">Экспорт: манифест</string>
+    <string name="export_notification_notes">Экспорт: заметки</string>
+    <string name="export_notification_files">Экспорт: файлы</string>
+    <string name="export_notification_complete">Экспорт завершён</string>
+    <string name="export_notification_error">Ошибка экспорта</string>
+    <string name="import_notification_preparing">Подготовка импорта...</string>
+    <string name="import_notification_complete">Импорт завершён</string>
+    <string name="import_notification_error">Ошибка импорта</string>
+    <string name="export_channel_name">Экспорт/Импорт</string>
+    <string name="date_dialog_title_format">📅 %1$d %2$s</string>
+    <string name="holiday_valentines_day">День святого Валентина</string>
+    <string name="holiday_defender_day">День защитника Отечества</string>
+    <string name="holiday_womens_day">Международный женский день</string>
+    <string name="holiday_spring_labor">Праздник Весны и Труда</string>
+    <string name="holiday_victory_day">День Победы</string>
+    <string name="holiday_russia_day">День России</string>
+    <string name="holiday_unity_day">День народного единства</string>
+
+    <!-- Месяцы (именительный) -->
+    <string name="month_january">Январь</string>
+    <string name="month_february">Февраль</string>
+    <string name="month_march">Март</string>
+    <string name="month_april">Апрель</string>
+    <string name="month_may">Май</string>
+    <string name="month_june">Июнь</string>
+    <string name="month_july">Июль</string>
+    <string name="month_august">Август</string>
+    <string name="month_september">Сентябрь</string>
+    <string name="month_october">Октябрь</string>
+    <string name="month_november">Ноябрь</string>
+    <string name="month_december">Декабрь</string>
+
+    <!-- Месяцы (родительный) -->
+    <string name="month_genitive_january">Января</string>
+    <string name="month_genitive_february">Февраля</string>
+    <string name="month_genitive_march">Марта</string>
+    <string name="month_genitive_april">Апреля</string>
+    <string name="month_genitive_may">Мая</string>
+    <string name="month_genitive_june">Июня</string>
+    <string name="month_genitive_july">Июля</string>
+    <string name="month_genitive_august">Августа</string>
+    <string name="month_genitive_september">Сентября</string>
+    <string name="month_genitive_october">Октября</string>
+    <string name="month_genitive_november">Ноября</string>
+    <string name="month_genitive_december">Декабря</string>
+
+    <!-- Секретные сообщения (массив) -->
+    <string-array name="secret_messages">
+        <item>С тобой я чувствую себя самым счастливым человеком на свете</item>
+        <item>Ты — моя вторая половинка, моя судьба</item>
+        <item>Я люблю тебя больше, чем слова могут выразить</item>
+        <item>Ты делаешь каждый мой день лучше</item>
+        <item>Мой мир стал ярче, когда ты появилась в моей жизни</item>
+        <item>Я хочу провести с тобой всю оставшуюся жизнь</item>
+        <item>Ты — лучшее, что случилось в моей жизни</item>
+        <item>Я скучаю по тебе каждую минуту, когда мы не вместе</item>
+        <item>Твоя улыбка — мой самый любимый свет</item>
+        <item>Я благодарен судьбе за то, что ты есть у меня</item>
+        <item>Ты — моя любовь, моя жизнь, моя вселенная</item>
+        <item>Каждый день с тобой — подарок</item>
+        <item>Я люблю тебя так, как никогда не думал, что смогу любить</item>
+        <item>Ты — мой дом, моя тихая гавань</item>
+        <item>С тобой я стал лучше</item>
+        <item>Ты — самое красивое, что я видел в своей жизни</item>
+        <item>Я хочу обнимать тебя каждое утро и каждый вечер</item>
+        <item>Ты — моя муза, мое вдохновение</item>
+        <item>Я люблю наши маленькие моменты вместе</item>
+        <item>Ты — единственная, кого я хочу видеть каждое утро</item>
+        <item>Моя любовь к тебе растет с каждым днем</item>
+        <item>Ты — мое счастье, моя радость</item>
+        <item>Я хочу быть рядом с тобой всегда</item>
+        <item>Ты — мой свет в темноте</item>
+        <item>Я люблю тебя за то, кто ты есть</item>
+        <item>Ты — мое будущее</item>
+        <item>С тобой я готов ко всему</item>
+        <item>Ты — самое ценное, что у меня есть</item>
+        <item>Я хочу создать с тобой миллион воспоминаний</item>
+        <item>Ты — моя вечная любовь</item>
+        <item>Я люблю тебя больше, чем вчера, меньше, чем завтра</item>
+        <item>Ты — мое сердце, моя душа</item>
+        <item>Я хочу дарить тебе цветы каждый день</item>
+        <item>Ты — мой идеал</item>
+        <item>Я люблю наши прогулки под луной</item>
+        <item>Ты — мое волшебство</item>
+        <item>Я хочу просыпаться рядом с тобой каждое утро</item>
+        <item>Ты — моя нежность, моя забота</item>
+        <item>Я люблю тебя всем сердцем</item>
+        <item>Ты — мое вдохновение жить</item>
+        <item>Я хочу быть твоей опорой и защитой</item>
+        <item>Ты — моя отрада</item>
+        <item>Я люблю наши ночи вместе</item>
+        <item>Ты — мое утро, мой день, моя ночь</item>
+        <item>Я хочу обнимать тебя так крепко, чтобы ты чувствовала мою любовь</item>
+        <item>Ты — мое чудо</item>
+        <item>Я люблю тебя безмерно</item>
+        <item>Ты — мой покой</item>
+        <item>Я хочу быть с тобой, когда солнце садится и когда встает</item>
+        <item>Ты — моя красотка</item>
+        <item>Я люблю наши поцелуи</item>
+        <item>Ты — мое солнце</item>
+        <item>Я хочу держать тебя за руку всю жизнь</item>
+        <item>Ты — моя мечта</item>
+        <item>Я люблю тебя больше всего на свете</item>
+        <item>Ты — мое сокровище</item>
+        <item>Я хочу целовать тебя каждый день</item>
+        <item>Ты — моя звезда</item>
+        <item>Я люблю наши разговоры до утра</item>
+        <item>Ты — мое всё</item>
+        <item>Я хочу быть с тобой вечно</item>
+        <item>Ты — моя любовь навсегда</item>
+        <item>Я люблю тебя так сильно, что невозможно описать</item>
+        <item>Ты — мое счастье</item>
+        <item>Я хочу обнимать тебя и никогда не отпускать</item>
+        <item>Ты — моя жизнь</item>
+        <item>Я люблю наши маленькие шутки</item>
+        <item>Ты — мое вдохновение</item>
+        <item>Я хочу быть рядом с тобой вечно</item>
+        <item>Ты — мой мир</item>
+        <item>Я люблю тебя больше, чем жизнь</item>
+        <item>Ты — мое сердце</item>
+        <item>Я хочу дарить тебе счастье каждый день</item>
+        <item>Ты — моя отрада</item>
+        <item>Я люблю наши моменты вдвоем</item>
+        <item>Ты — мое волшебство</item>
+        <item>Ты — моя нежность</item>
+        <item>Я люблю тебя всем сердцем и душой</item>
+        <item>Ты — мое вдохновение</item>
+        <item>Я хочу обнимать тебя каждую ночь</item>
+        <item>Ты — моя радость</item>
+        <item>Я люблю наши утра вместе</item>
+        <item>Ты — мое солнце</item>
+        <item>Я хочу быть с тобой всегда и везде</item>
+        <item>Ты — моя любовь</item>
+        <item>Я люблю тебя больше, чем words</item>
+        <item>Ты — мое счастье</item>
+        <item>Я хочу дарить тебе цветы</item>
+        <item>Ты — моя звезда</item>
+        <item>Я люблю наши поцелуи</item>
+        <item>Ты — мое сердце</item>
+        <item>Я хочу быть с тобой вечно</item>
+        <item>Ты — моя жизнь</item>
+        <item>Я люблю тебя безмерно</item>
+        <item>Ты — мое вдохновение</item>
+        <item>Я хочу обнимать тебя</item>
+        <item>Ты — моя отрада</item>
+        <item>Я люблю наши моменты</item>
+        <item>Ты — мое волшебство</item>
+        <item>Я хочу быть рядом</item>
+        <item>Ты — моя нежность</item>
+        <item>Я люблю тебя</item>
+        <item>Ты — мое счастье</item>
+        <item>Я хочу дарить тебе радость</item>
+        <item>Ты — моя звезда</item>
+        <item>Я люблю наши разговоры</item>
+        <item>Ты — мое сердце</item>
+        <item>Я хочу быть с тобой</item>
+        <item>Ты — моя жизнь</item>
+        <item>Я люблю тебя больше всего</item>
+        <item>Ты — мое вдохновение</item>
+        <item>Я хочу обнимать тебя</item>
+        <item>Ты — моя отрада</item>
+        <item>Я люблю наши моменты</item>
+        <item>Ты — мое волшебство</item>
+        <item>Я хочу быть рядом</item>
+        <item>Ты — моя нежность</item>
+        <item>Я люблю тебя</item>
+        <item>Ты — мое счастье</item>
+    </string-array>
+
+    <string-array name="random_notification_messages">
+        <item>Я думаю о тебе прямо сейчас</item>
+        <item>Ты в моих мыслях всегда</item>
+        <item>Скучаю по тебе</item>
+        <item>Люблю тебя</item>
+        <item>Ты — лучшее во мне</item>
+        <item>Хочу обнять тебя</item>
+        <item>Ты — мое солнце</item>
+        <item>Спасибо, что ты есть</item>
+        <item>Я счастлив с тобой</item>
+        <item>Ты — моя любовь</item>
+        <item>Думаю о тебе</item>
+        <item>Скучаю</item>
+        <item>Люблю</item>
+        <item>Обнимаю</item>
+        <item>Ты — лучшее что случилось</item>
+        <item>Обнимаю крепко</item>
+        <item>Ты — мой мир</item>
+        <item>Спасибо за всё</item>
+        <item>Счастлив каждый день</item>
+        <item>Люблю бесконечно</item>
+        <item>Ты — мое вдохновение</item>
+        <item>Скучаю каждую минуту</item>
+        <item>Люблю всем сердцем</item>
+        <item>Хочу быть рядом</item>
+        <item>Ты — моя радость</item>
+        <item>Думаю о наших моментах</item>
+        <item>Скучаю по твоим объятиям</item>
+        <item>Люблю нашу историю</item>
+        <item>Ты — мой покой</item>
+        <item>Хочу целовать тебя</item>
+        <item>Ты — моя нежность</item>
+        <item>Думаю о нашем будущем</item>
+        <item>Скучаю по твоему голосу</item>
+        <item>Люблю наши разговоры</item>
+        <item>Ты — моя отрада</item>
+        <item>Хочу держать тебя за руку</item>
+        <item>Ты — мой свет</item>
+        <item>Думаю о твоей улыбке</item>
+        <item>Скучаю по твоим поцелуям</item>
+        <item>Люблю наши прогулки</item>
+        <item>Ты — мое чудо</item>
+        <item>Хочу просыпаться рядом</item>
+        <item>Ты — моя мечта</item>
+        <item>Думаю о твоих глазах</item>
+        <item>Скучаю по твоим прикосновениям</item>
+        <item>Люблю наши ночи вместе</item>
+        <item>Ты — мое волшебство</item>
+        <item>Хочу обнимать тебя каждый день</item>
+        <item>Ты — мой ангел</item>
+        <item>Думаю о тебе и улыбаюсь</item>
+        <item>Скучаю по твоему теплу</item>
+        <item>Люблю тебя больше жизни</item>
+        <item>Ты — моя вселенная</item>
+        <item>Хочу быть твоей опорой</item>
+        <item>Ты — мой смысл</item>
+        <item>Думаю о тебе и сердце согревается</item>
+        <item>Скучаю по нашим вечерам</item>
+        <item>Люблю тебя навсегда</item>
+        <item>Ты — мое счастье</item>
+        <item>Хочу дарить тебе цветы</item>
+        <item>Ты — моя звезда</item>
+    </string-array>
+
+    <!-- Категории настроек (вложенные экраны) -->
+    <string name="settings_back_arrow">←</string>
+    <string name="settings_chevron">›</string>
+    <string name="settings_category_dates">📅 Календарь и даты</string>
+    <string name="settings_category_appearance">🎨 Оформление</string>
+    <string name="settings_category_security">🔒 Безопасность</string>
+    <string name="settings_category_relationships">👥 Отношения</string>
+    <string name="settings_category_data">💾 Данные</string>
+</resources>

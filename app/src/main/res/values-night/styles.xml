@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- ДИАЛОГИ — ТЁМНАЯ ТЕМА                              -->
+    <!-- ═══════════════════════════════════════════════════ -->
+
+    <!-- основной стиль диалогов (тёмная тема) -->
+    <style name="LovestoryDialogTheme" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@color/dialog_bg_dark</item>
+        <item name="android:textColorPrimary">#FFFFFFFF</item>
+        <item name="android:textColorSecondary">#FFBBBBBB</item>
+        <item name="colorAccent">#FFFF4081</item>
+        <item name="shapeAppearanceSmallComponent">@style/LovestoryDialogShape</item>
+        <item name="buttonBarPositiveButtonStyle">@style/LovestoryDialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/LovestoryDialogButtonStyle</item>
+    </style>
+
+    <!-- стиль формы с закруглёнными углами -->
+    <style name="LovestoryDialogShape" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <!-- кнопки диалогов — розовые -->
+    <style name="LovestoryDialogButtonStyle" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">#FFFF4081</item>
+    </style>
+
+    <!-- DatePickerDialog (тёмная тема) — кнопки розовые -->
+    <style name="LovestoryDatePickerTheme" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@color/dialog_bg_dark</item>
+        <item name="android:textColorPrimary">#FFFFFFFF</item>
+        <item name="android:textColorSecondary">#FFBBBBBB</item>
+        <item name="colorAccent">#FFFF4081</item>
+        <item name="shapeAppearanceSmallComponent">@style/LovestoryDialogShape</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/LovestoryDialogButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/LovestoryDialogButtonStyle</item>
+    </style>
+
+</resources>

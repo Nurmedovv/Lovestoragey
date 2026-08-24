@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🎯 ФОН ДЛЯ КНОПКИ PLAY - ВИДИМЫЙ КРУГ С ТЕНЬЮ -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ВНЕШНИЙ КРУГ С ТЕНЬЮ -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#80000000" />
+            <size android:width="32dp" android:height="32dp" />
+        </shape>
+    </item>
+
+    <!-- СРЕДНИЙ КРУГ -->
+    <item android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="2dp">
+        <shape android:shape="oval">
+            <solid android:color="#FF4081" /> <!-- Розовый цвет -->
+        </shape>
+    </item>
+
+    <!-- ВНУТРЕННИЙ КРУГ -->
+    <item android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp">
+        <shape android:shape="oval">
+            <solid android:color="#FF80AB" /> <!-- Светло-розовый -->
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lovestor(age)y</string>
+    <string name="message_format">💖 %s 💖</string>
+
+    <!-- Genel -->
+    <string name="cancel">İptal</string>
+    <string name="save">Kaydet</string>
+    <string name="delete_all">Tümünü sil</string>
+    <string name="error_title">Hata</string>
+
+    <!-- Dil -->
+    <string name="language_title">Dil</string>
+    <string name="language_system">Sistem</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_english">English</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_italian">Italiano</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_polish">Polski</string>
+    <string name="language_turkish">Türkçe</string>
+    <string name="language_arabic">العربية</string>
+
+    <!-- Silme diyaloğu -->
+    <string name="delete_all_title">Tüm dosyalar silinsin mi?</string>
+    <string name="delete_all_message">Tüm dosyaları silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
+    <string name="delete_all_date_message">Bu tarihe ait tüm dosyaları silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
+
+    <!-- MainActivity -->
+    <string name="permissions_not_granted">Bazı izinler verilmedi</string>
+
+    <!-- Galeri -->
+    <string name="gallery_description">Burada en güzel fotoğraflarımız olacak</string>
+    <string name="pick_photos_title">Fotoğraf seç</string>
+    <string name="slideshow_counter">Slayt gösterisi: %1$d/%2$d</string>
+    <string name="slideshow_interval_title">Slayt aralığı</string>
+    <string name="interval_3_sec">3 sn</string>
+    <string name="interval_5_sec">5 sn</string>
+    <string name="interval_7_sec">7 sn (varsayılan)</string>
+    <string name="interval_10_sec">10 sn</string>
+    <string name="interval_15_sec">15 sn</string>
+    <string name="slideshow_started">Slayt gösterisi başlatıldı</string>
+    <string name="slideshow_stopped">Slayt gösterisi durduruldu</string>
+
+    <!-- Dosyalar -->
+    <string name="files_title">\uD83E\uDD7A</string>
+    <string name="files_subtitle">Tüm dosyalarımız tek bir yerde</string>
+    <string name="pick_files_title">Dosya seç</string>
+    <string name="no_files_message">Yüklenmiş dosya yok\nEklemek için \uD83D\uDCE5\'e dokunun</string>
+    <string name="no_file_picker">Dosya seçmek için uygulama yok</string>
+
+    <!-- Notlar -->
+    <string name="notes_title">\uD83D\uDCDD Düşüncelerim</string>
+    <string name="note_hint_add">Aklınıza gelen her şeyi buraya yazın…</string>
+    <string name="note_hint_edit">Notu düzenle…</string>
+    <string name="note_saved_toast">Not kaydedildi!</string>
+    <string name="note_empty_warning">Kaydetmeden önce bir şey yazın</string>
+    <string name="note_editing_toast">Not düzenleniyor</string>
+    <string name="note_updated_toast">Not güncellendi!</string>
+    <string name="note_empty_error">Not boş olamaz</string>
+    <string name="note_deleted">Not silindi</string>
+    <string name="undo">Geri al</string>
+
+    <!-- Ayarlar -->
+    <string name="settings_title">\u2699\uFE0F Ayarlar</string>
+    <string name="error_date_range_invalid">Başlangıç tarihi, bitiş tarihinden sonra olamaz</string>
+    <string name="nickname_title">Takma adı değiştir</string>
+    <string name="nickname_updated">Takma ad güncellendi</string>
+    <string name="nickname_label">Takma ad</string>
+    <string name="message_placeholder">—</string>
+    <string name="partner_default">Partner</string>
+    <string name="me_default">Ben</string>
+    <string name="waiting_partner">partner bekleniyor</string>
+    <string name="pairing_info_message">Siz: %1$s\nPartner: %2$s\nKod: %3$s</string>
+    <string name="signin_error">Giriş hatası: %1$d</string>
+    <string name="auth_enabled_toast">Kimlik doğrulama etkinleştirildi</string>
+    <string name="lock_timeout_dialog_title">Şundan sonra kilitle</string>
+    <string name="timeout_immediately">Hemen</string>
+    <string name="timeout_30_sec">30 sn</string>
+    <string name="timeout_1_min">1 dk</string>
+    <string name="timeout_5_min">5 dk</string>
+    <string name="timeout_15_min">15 dk</string>
+    <string name="timeout_30_min">30 dk</string>
+    <string name="timeout_1_hour">1 saat</string>
+    <string name="timeout_never">Asla</string>
+
+    <!-- Biyometri -->
+    <string name="biometric_setup_title">Güvenlik ayarı</string>
+    <string name="biometric_setup_subtitle">Parmak izi veya yüz ile onaylayın</string>
+    <string name="biometric_negative_button">İptal</string>
+    <string name="biometric_app_title">Uygulamaya giriş</string>
+    <string name="biometric_app_subtitle">Parmak izi veya yüz kullanın</string>
+    <string name="enter_pin">PIN gir</string>
+
+    <!-- PIN -->
+    <string name="pin_title">PIN kodu</string>
+    <string name="pin_setup_message">Yedek erişim için 4 haneli PIN girin:</string>
+    <string name="pin_saved_toast">PIN kaydedildi</string>
+    <string name="pin_validation_error">PIN tam olarak 4 haneli olmalıdır</string>
+    <string name="pin_enter_prompt">PIN kodunu girin</string>
+    <string name="pin_incorrect_remaining">Yanlış PIN. Kalan deneme: %d</string>
+    <string name="lockout_countdown">Kilitli: %d sn.</string>
+
+    <!-- İstatistikler -->
+    <string name="stats_photos">\uD83D\uDCF8 Fotoğraflar: %d</string>
+    <string name="stats_files">\uD83D\uDCC1 Dosyalar: %d</string>
+    <string name="stats_calendar_files">\uD83D\uDCC5 Tarih dosyaları: %d</string>
+    <string name="stats_storage">\uD83D\uDCBE Depolama: %.1f MB</string>
+    <string name="stats_notes">\uD83D\uDCDD Notlar: %d</string>
+
+    <!-- Galeri/dosya diyalogları -->
+    <string name="dialog_all_photos">\uD83D\uDDBC️ Tüm fotoğraflar</string>
+    <string name="dialog_photos_prefix">\uD83D\uDDBC️ Fotoğraflar:</string>
+    <string name="dialog_all_files">\uD83D\uDCC1 Tüm dosyalar</string>
+    <string name="dialog_files_prefix">\uD83D\uDCC1 Dosyalar:</string>
+
+    <!-- Tarih diyaloğu -->
+    <string name="date_files_count">\uD83D\uDCC1 Dosyalar: %d</string>
+    <string name="pick_files_for_date">Tarih için dosya seç</string>
+
+    <!-- Bildirimler -->
+    <string name="notification_channel_name">Kesin hatırlatmalar</string>
+    <string name="notification_channel_desc">Kesin zamanda bildirimler</string>
+    <string name="notification_channel_messages_name">Partner mesajları</string>
+    <string name="notification_channel_messages_desc">Partnerden gelen mesajlar için bildirimler</string>
+    <string name="notification_morning_title">\uD83D\uDC1D Günaydın canım \uD83D\uDC96</string>
+    <string name="notification_morning_text">Gününün sadece neşe getirmesini diliyorum, seni seviyorum</string>
+    <string name="notification_night_title">\uD83C\uDF19 İyi geceler minik \uD83D\uDC95</string>
+    <string name="notification_night_text">Seni çok seviyorum. Öpüyorum, sarılıyorum</string>
+    <string name="notification_random_title">Benden sıcaklık \uD83D\uDC96</string>
+
+    <!-- Dosya hataları -->
+    <string name="error_open_image">Görüntü açılamadı</string>
+    <string name="error_file_not_found">Dosya bulunamadı</string>
+    <string name="error_install_file_app">Dosyaları açmak için bir uygulama yükleyin</string>
+    <string name="error_open_file">Dosya açılamadı</string>
+
+    <!-- Tatiller -->
+    <string name="holiday_new_year">Yılbaşı</string>
+    <string name="holiday_valentines_day">Sevgililer Günü</string>
+    <string name="holiday_defender_day">Vatan Savunmacıları Günü</string>
+    <string name="holiday_womens_day">Uluslararası Kadınlar Günü</string>
+    <string name="holiday_spring_labor">Bahar ve İş Bayramı</string>
+    <string name="holiday_victory_day">Zafer Günü</string>
+    <string name="holiday_russia_day">Rusya Günü</string>
+    <string name="holiday_unity_day">Ulusal Birlik Günü</string>
+
+    <!-- Aylar (nominatif) -->
+    <string name="month_january">Ocak</string>
+    <string name="month_february">Şubat</string>
+    <string name="month_march">Mart</string>
+    <string name="month_april">Nisan</string>
+    <string name="month_may">Mayıs</string>
+    <string name="month_june">Haziran</string>
+    <string name="month_july">Temmuz</string>
+    <string name="month_august">Ağustos</string>
+    <string name="month_september">Eylül</string>
+    <string name="month_october">Ekim</string>
+    <string name="month_november">Kasım</string>
+    <string name="month_december">Aralık</string>
+
+    <!-- Aylar (belirtme — Türkçede nominatif ile aynı) -->
+    <string name="month_genitive_january">Ocak</string>
+    <string name="month_genitive_february">Şubat</string>
+    <string name="month_genitive_march">Mart</string>
+    <string name="month_genitive_april">Nisan</string>
+    <string name="month_genitive_may">Mayıs</string>
+    <string name="month_genitive_june">Haziran</string>
+    <string name="month_genitive_july">Temmuz</string>
+    <string name="month_genitive_august">Ağustos</string>
+    <string name="month_genitive_september">Eylül</string>
+    <string name="month_genitive_october">Ekim</string>
+    <string name="month_genitive_november">Kasım</string>
+    <string name="month_genitive_december">Aralık</string>
+
+    <!-- Gizli mesajlar -->
+    <string-array name="secret_messages">
+        <item>Seninle dünyanın en mutlu insanı gibi hissediyorum</item>
+        <item>Sen benim diğer yarım, kaderimsin</item>
+        <item>Kelimelerin ifade edebileceğinden daha çok seviyorum seni</item>
+        <item>Her günümü daha iyi yapıyorsun</item>
+        <item>Hayatıma girdiğinde dünyam daha parlak oldu</item>
+        <item>Ömrümün geri kalanını seninle geçirmek istiyorum</item>
+        <item>Başıma gelen en güzel şey sensin</item>
+        <item>Birlikte olmadığımız her dakika özlem duyuyorum</item>
+        <item>Gülüşün benim en sevdiğim ışığım</item>
+        <item>Seni bana verdiği için kaderime minnettarım</item>
+        <item>Sen benim aşkım, hayatım, evrenimsin</item>
+        <item>Seninle geçen her gün bir hediye</item>
+        <item>Hiç bu kadar sevebileceğimi düşünmemiştim</item>
+        <item>Sen benim evim, sakin limanımsın</item>
+        <item>Seninle daha iyi biri oldum</item>
+        <item>Hayatımda gördüğüm en güzel şeysin</item>
+        <item>Her sabah ve her akşam seni kucaklamak istiyorum</item>
+        <item>Sen benim ilham kaynağımsın, musamsın</item>
+        <item>Birlikte geçirdiğimiz küçük anları seviyorum</item>
+        <item>Her sabah görmek istediğim tek kişisin</item>
+        <item>Sana olan aşkım her gün büyüyor</item>
+        <item>Sen benim mutluluğum, neşe kaynağımsın</item>
+        <item>Her zaman yanında olmak istiyorum</item>
+        <item>Karanlıktaki ışıgımsın</item>
+        <item>Sen olduğun için seviyorum seni</item>
+        <item>Sen benim geleceğimsin</item>
+        <item>Seninle her şeye hazırım</item>
+        <item>Sahip olduğum en değerli şeysin</item>
+        <item>Seninle bir milyon anı yaratmak istiyorum</item>
+        <item>Sen benim sonsuz aşkım</item>
+        <item>Dünkinden daha çok, yarınkinden daha az seviyorum seni</item>
+        <item>Sen benim kalbim, ruhumsun</item>
+        <item>Her gün sana çiçek vermek istiyorum</item>
+        <item>Sen benim idealimsin</item>
+        <item>Ay altında yürüyüşlerimizi seviyorum</item>
+        <item>Sen benim sihirimsin</item>
+        <item>Her sabah yanın uyanmak istiyorum</item>
+        <item>Sen benim şefkatim, korumamsın</item>
+        <item>Tam kalbimle seviyorum seni</item>
+        <item>Sen benim yaşam ilhamımsın</item>
+        <item>Destek ve koruman olmak istiyorum</item>
+        <item>Sen benim neşemsin</item>
+        <item>Birlikte geçirdiğimiz geceleri seviyorum</item>
+        <item>Sen benim sabahım, günüm, gecemsin</item>
+        <item>Aşkımı hissedeceğin kadar sıkı kucaklamak istiyorum</item>
+        <item>Sen benim mucizemsin</item>
+        <item>Sonsuza kadar seviyorum seni</item>
+        <item>Sen benim huzurumsun</item>
+        <item>Güneş battığında ve doğduğunda yanında olmak istiyorum</item>
+        <item>Sen benim güzelliğimsin</item>
+        <item>Öpücüklerimizi seviyorum</item>
+        <item>Sen benim güneşımsın</item>
+        <item>Ömrüm boyunca elini tutmak istiyorum</item>
+        <item>Sen benim rüyamsın</item>
+        <item>Dünyadaki her şeyden daha çok seviyorum seni</item>
+        <item>Sen benim hazinemsin</item>
+        <item>Her gün seni öpmek istiyorum</item>
+        <item>Sen benim yıldızımsın</item>
+    </string-array>
+
+    <string-array name="random_notification_messages">
+        <item>Şu an seni düşünüyorum</item>
+        <item>Düşüncelerimde hep varsın</item>
+        <item>Özledim seni</item>
+        <item>Seviyorum seni</item>
+        <item>Bende en iyisin</item>
+        <item>Seni kucaklamak istiyorum</item>
+        <item>Sen benim güneşımsın</item>
+        <item>Burada olduğun için teşekkürler</item>
+        <item>Seninle mutluyum</item>
+        <item>Sen benim aşkım</item>
+        <item>Seni düşünüyorum</item>
+        <item>Özledim</item>
+        <item>Seviyorum</item>
+        <item>Seni kucaklıyorum</item>
+        <item>Başıma gelen en güzel şeysin</item>
+        <item>Sıkı sarılıyorum</item>
+        <item>Sen benim dünyamsın</item>
+        <item>Her şey için teşekkürler</item>
+        <item>Her gün mutlu</item>
+        <item>Sonsuza kadar seviyorum</item>
+        <item>Sen benim ilham kaynağımsın</item>
+        <item>Her dakika özledim</item>
+        <item>Tam kalbimle seviyorum</item>
+        <item>Yanında olmak istiyorum</item>
+        <item>Sen benim neşemsin</item>
+        <item>Anılarımızı düşünüyorum</item>
+        <item>Sarılmalarını özledim</item>
+        <item>Hikayemizi seviyorum</item>
+        <item>Sen benim huzurumsun</item>
+        <item>Seni öpmek istiyorum</item>
+        <item>Sen benim şefkatimsin</item>
+        <item>Geleceğimizi düşünüyorum</item>
+        <item>Sesini özledim</item>
+        <item>Sohbetlerimizi seviyorum</item>
+        <item>Sen benim cazibemsin</item>
+        <item>Elini tutmak istiyorum</item>
+        <item>Sen benim ışıgımsın</item>
+        <item>Gülüşünü düşünüyorum</item>
+        <item>Öpücüklerini özledim</item>
+        <item>Birlikte yürüyüşlerimizi seviyorum</item>
+        <item>Sen benim mucizemsin</item>
+        <item>Yanında uyanmak istiyorum</item>
+        <item>Sen benim rüyamsın</item>
+        <item>Gözlerini düşünüyorum</item>
+        <item>Dokunuşunu özledim</item>
+        <item>Birlikte gecelerimizi seviyorum</item>
+        <item>Sen benim sihirimsin</item>
+        <item>Her gün seni kucaklamak istiyorum</item>
+        <item>Sen benim meleğimsin</item>
+        <item>Seni düşünüp gülümsüyorum</item>
+        <item>Sıcaklığını özledim</item>
+        <item>Hayatımdan daha çok seviyorum seni</item>
+        <item>Sen benim evrenimsin</item>
+        <item>Destekçin olmak istiyorum</item>
+        <item>Sen benim anlamsın</item>
+        <item>Seni düşününce kalbim ısınıyor</item>
+        <item>Akşamlarımızı özledim</item>
+        <item>Sonsuza kadar seviyorum</item>
+        <item>Sen benim mutluluğumsun</item>
+        <item>Çiçek vermek istiyorum</item>
+        <item>Sen benim yıldızımsın</item>
+    </string-array>
+
+    <!-- Layout: fragment_gallery -->
+    <string name="gallery_preview_desc">Son fotoğraf önizleme</string>
+    <string name="gallery_open_hint">Galeriyi açmak için dokunun</string>
+
+    <!-- Layout: fragment_files -->
+    <string name="files_preview_desc">Son dosya önizleme</string>
+    <string name="files_open_hint">Tüm dosyaları açmak için dokunun</string>
+
+    <!-- Layout: fragment_notes -->
+    <string name="notes_search_hint">Notlarda ara…</string>
+    <string name="notes_hint">Aklınıza gelen her şeyi buraya yazın…</string>
+
+    <!-- Layout: fragment_calendar -->
+    <string name="calendar_love_text">Seni çok seviyorum💖</string>
+
+    <string name="calendar_quote">Zaman geçecek ama sana olan aşkım asla</string>
+
+    <!-- Мессенджер пары -->
+    <string name="message_dialog_title">Partnerine mesaj</string>
+    <string name="message_dialog_hint">Maks. 20 karakter</string>
+    <string name="message_input_hint">Bir şeyler yaz…</string>
+    <string name="send">Gönder</string>
+    <string name="message_send_error">Gönderilemedi</string>
+    <string name="message_last_sent">Son mesaj:</string>
+    <string name="auth_error">Kimlik doğrulama hatası</string>
+
+
+    <!-- Kimlik doğrulama -->
+    <string name="sign_in_google">Google ile giriş yap</string>
+    <string name="sign_out">Çıkış yap</string>
+    <string name="auth_required">Önce Google ile giriş yapın</string>
+    <string name="auth_signed_in">%s olarak giriş yapıldı</string>
+
+    <!-- Eşleşme -->
+    <string name="pairing_title">Partnerle eşleş</string>
+    <string name="pairing_create">Çift oluştur</string>
+    <string name="pairing_or">— veya —</string>
+    <string name="pairing_join">Kodla katıl</string>
+    <string name="pairing_back">Geri</string>
+    <string name="pairing_code_hint">6 karakterlik kod</string>
+    <string name="pairing_code_title">Çift kodunuz</string>
+    <string name="pairing_code_message">Bu kodu partnerinizle paylaşın:\n\n%s</string>
+    <string name="pairing_code_error">Kod 6 karakter olmalı</string>
+    <string name="pairing_success">Partnerle eşleşildi!</string>
+    <string name="pairing_not_found">Çift bulunamadı. Kodu kontrol edin.</string>
+    <string name="pairing_paired">Eşleşildi</string>
+    <string name="pairing_not_paired">Eşleşmedi</string>
+    <string name="pairing_unpair">Bağlantıyı kes</string>
+    <string name="pairing_unpair_title">Bağlantı kesilsin mi?</string>
+    <string name="pairing_unpair_message">Bağlantıyı kesmek istediğinizden emin misiniz?</string>
+    <string name="pairing_unpaired">Bağlantınız kesildi</string>
+    <string name="pairing_regenerate">Kodu yeniden oluştur</string>
+    <string name="pairing_regenerate_title">Kod yeniden oluşturulsun mu?</string>
+    <string name="pairing_regenerate_message">Eski kod çalışmayı durduracak. Partnerinizin tekrar giriş yapması gerekecek.</string>
+    <string name="ok">OK</string>
+    <string name="default_web_client_id">633769435038-5jne4601lve97h3r0ai1eg08j3v21raj.apps.googleusercontent.com</string>
+    <!-- Layout: item_note -->
+    <string name="note_placeholder">Not metni…</string>
+    <string name="note_pin_desc">Sabitle</string>
+    <string name="note_edit_desc">Düzenle</string>
+    <string name="note_delete_desc">Sil</string>
+
+    <!-- Layout: item_file -->
+    <string name="file_preview_desc">Dosya önizleme</string>
+    <string name="video_play_desc">Videoyu oynat</string>
+
+    <!-- Layout: item_calendar_month -->
+    <string name="month_default">Ocak</string>
+
+    <!-- Layout: activity_lock_screen -->
+    <string name="lock_welcome">Hoş geldiniz</string>
+    <string name="lock_prompt">PIN girin veya biyometri kullanın</string>
+    <string name="lock_login">Giriş yap</string>
+
+    <!-- Layout: dialog_date_range_picker -->
+    <string name="date_range_from">den</string>
+    <string name="date_range_to">ya kadar</string>
+    <string name="date_range_close">Kapat</string>
+    <string name="date_range_save">Kaydet</string>
+
+    <!-- Layout: fragment_settings -->
+    <string name="settings_date_to">ya kadar</string>
+    <string name="settings_title_label">\u2699\uFE0F Ayarlar</string>
+    <string name="settings_date_range">\uD83D\uDCC5 Aralık: den</string>
+    <string name="settings_vibration">\uD83D\uDCF3 Titreşim</string>
+    <string name="settings_auth">\uD83D\uDD12 Uygulama koruması</string>
+    <string name="settings_lock_timeout">\u23F1 Şundan sonra kilitle</string>
+    <string name="settings_lock_timeout_value">1 dk</string>
+    <string name="settings_language">\uD83C\uDF10 Dil</string>
+    <string name="settings_background">🎨 Uygulama arka planı</string>
+    <string name="settings_background_default">Varsayılan</string>
+    <string name="settings_background_set">Resim seç</string>
+    <string name="settings_background_clear">Arka planı kaldır</string>
+    <string name="settings_glass_opacity">Arayüz şeffaflığı</string>
+    <string name="settings_dialog_opacity">Pencere şeffaflığı</string>
+    <string name="settings_font_color">Yazı tipi rengi</string>
+    <string name="settings_statistics">\uD83D\uDCCA İstatistikler</string>
+    <string name="stats_photos_placeholder">\uD83D\uDCF8 Fotoğraflar: 0</string>
+    <string name="stats_files_placeholder">\uD83D\uDCC1 Dosyalar: 0</string>
+    <string name="stats_calendar_files_placeholder">\uD83D\uDCC5 Tarih dosyaları: 0</string>
+    <string name="stats_notes_placeholder">\uD83D\uDCDD Notlar: 0</string>
+    <string name="stats_storage_placeholder">\uD83D\uDCBE Depolama: 0 MB</string>
+
+    <!-- Layout: fragment_calendar -->
+    <string name="calendar_button">\uD83D\uDC8C Düğmeye dokunun \uD83D\uDC8C</string>
+
+    <!-- Layout: fragment_notes -->
+    <string name="notes_title_label">\uD83D\uDCDD Düşüncelerim</string>
+    <string name="notes_save_button">\uD83D\uDC96 Notu kaydet</string>
+    <string name="notes_save">\uD83D\uDCBE Kaydet</string>
+    <string name="notes_cancel">\u274C İptal</string>
+    <string name="notes_saved_label">\uD83D\uDCCB Kayıtlı notlarım:</string>
+
+    <!-- Layout: fragment_files -->
+    <string name="files_last_file">\uD83D\uDCC4 Son dosya</string>
+
+    <!-- Layout: fragment_gallery -->
+    <string name="gallery_last_photo">\uD83D\uDCF8 Son fotoğraf</string>
+
+    <!-- Layout: dialog_date_simple -->
+    <string name="date_dialog_example">\uD83D\uDCC5 14 Şubat</string>
+    <string name="date_files_title">\uD83D\uDCC1 Bu tarihe ait dosyalar</string>
+    <string name="date_files_zero">\uD83D\uDCC1 Dosyalar: 0</string>
+
+    <!-- Layout: dialog_page_files -->
+    <string name="dialog_files_title">\uD83D\uDCC1 Tüm dosyalar</string>
+    <string name="dialog_files_count">\uD83D\uDCC1 Dosyalar: 0</string>
+
+    <!-- Layout: dialog_page_gallery -->
+    <string name="dialog_photos_title">\uD83D\uDDBC️ Tüm fotoğraflar</string>
+    <string name="dialog_photos_count">\uD83D\uDDBC️ Fotoğraflar: 0</string>
+
+
+
+    <!-- Export/Import -->
+    <string name="settings_export">📤 Verileri dışa aktar</string>
+    <string name="export_success">Dışa aktarma tamamlandı</string>
+    <string name="settings_backup">💾 Yedekleme</string>
+    <string name="export_error">Dışa aktarma hatası</string>
+    <string name="export_options_title">Ne dışa aktarılacak?</string>
+    <string name="export_option_notes">Notlar</string>
+    <string name="export_option_files">Dosyalar</string>
+    <string name="export_option_background">Arka plan</string>
+    <string name="export_option_settings">Ayarlar</string>
+    <string name="import_confirm_message">Mevcut veriler içe aktarılanlarla değiştirilsin mi?</string>
+    <string name="import_started">İçe aktarma başladı...</string>
+    <string name="import_error">İçe aktarma hatası</string>
+    <string name="import_confirm_merge">Birleştir</string>
+    <string name="import_confirm_title">Verileri içe aktar</string>
+    <string name="export_started">Dışa aktarma başladı...</string>
+    <string name="export_share">Arşivi paylaş</string>
+    <string name="settings_import">📥 Verileri içe aktar</string>
+    <string name="import_success">İçe aktarma tamamlandı</string>
+    <string name="import_restart">İçe aktarma tamamlandı, uygulamayı yeniden başlatın</string>
+    <string name="import_confirm_replace">Değiştir</string>
+    <string name="export_saved_to_downloads">İndirmelere kaydedildi</string>
+
+    <string name="color_picker_title">Renk seç</string>
+    <string name="color_picker_custom">Özel renk (düzenlemek için dokunun)</string>
+    <string name="export_notification_notes">Dışa aktar: notlar</string>
+    <string name="export_notification_manifest">Dışa aktar: manifests</string>
+    <string name="export_notification_preparing">Dışa aktarma hazırlanıyor...</string>
+    <string name="import_notification_complete">İçe aktarma tamamlandı</string>
+    <string name="export_channel_name">Dışa/İçe Aktar</string>
+    <string name="import_notification_error">İçe aktarma hatası</string>
+    <string name="export_notification_complete">Dışa aktarma tamamlandı</string>
+    <string name="import_notification_preparing">İçe aktarma hazırlanıyor...</string>
+    <string name="export_notification_files">Dışa aktar: dosyalar</string>
+    <string name="export_notification_error">Dışa aktarma hatası</string>
+    <string name="date_dialog_title_format">📅 %1$d %2$s</string>
+</resources>

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lovestor(age)y</string>
+    <string name="message_format">💖 %s 💖</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Enregistrer</string>
+    <string name="delete_all">Tout supprimer</string>
+    <string name="error_title">Erreur</string>
+    <string name="language_title">Langue</string>
+    <string name="language_system">Système</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_english">English</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_italian">Italiano</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_polish">Polski</string>
+    <string name="language_turkish">Türkçe</string>
+    <string name="language_arabic">العربية</string>
+    <string name="gallery_preview_desc">Aperçu de la dernière photo</string>
+    <string name="gallery_open_hint">Appuyez pour ouvrir la galerie</string>
+    <string name="files_preview_desc">Aperçu du dernier fichier</string>
+    <string name="files_open_hint">Appuyez pour ouvrir tous les fichiers</string>
+    <string name="notes_search_hint">Rechercher dans les notes…</string>
+    <string name="notes_hint">Écrivez tout ce qui vous passe par la tête…</string>
+    <string name="calendar_love_text">Je t\'aime très fort 💖</string>
+    <string name="calendar_quote">Le temps passera, mais mon amour pour toi ne passera jamais</string>
+    <string name="message_dialog_title">Message au partenaire</string>
+    <string name="message_dialog_hint">Maximum 20 caractères</string>
+    <string name="message_input_hint">Écrivez quelque chose…</string>
+    <string name="send">Envoyer</string>
+    <string name="message_send_error">Échec de l\'envoi</string>
+    <string name="message_last_sent">Dernier message :</string>
+    <string name="auth_error">Erreur d\'authentification</string>
+    <string name="sign_in_google">Connexion avec Google</string>
+    <string name="sign_out">Déconnexion</string>
+    <string name="auth_required">Connectez-vous d\'abord avec Google</string>
+    <string name="auth_signed_in">Connecté en tant que %s</string>
+    <string name="pairing_title">Jumelage avec le partenaire</string>
+    <string name="pairing_create">Créer un couple</string>
+    <string name="pairing_or">— ou —</string>
+    <string name="pairing_join">Rejoindre par code</string>
+    <string name="pairing_back">Retour</string>
+    <string name="pairing_code_hint">Code à 6 caractères</string>
+    <string name="pairing_code_title">Votre code de couple</string>
+    <string name="pairing_code_message">Transmettez ce code à votre partenaire :\n\n%s</string>
+    <string name="pairing_code_error">Le code doit contenir 6 caractères</string>
+    <string name="pairing_success">Vous êtes jumelé !</string>
+    <string name="pairing_not_found">Couple non trouvé. Vérifiez le code.</string>
+    <string name="pairing_paired">Jumelé</string>
+    <string name="pairing_not_paired">Non jumelé</string>
+    <string name="pairing_unpair">Désjumeler</string>
+    <string name="pairing_unpair_title">Se désjumeler ?</string>
+    <string name="pairing_unpair_message">Êtes-vous sûr de vouloir vous désjumeler ?</string>
+    <string name="pairing_unpaired">Vous vous êtes désjumelé</string>
+    <string name="pairing_regenerate">Régénérer le code</string>
+    <string name="pairing_regenerate_title">Régénérer le code ?</string>
+    <string name="pairing_regenerate_message">L\'ancien code cessera de fonctionner. Le partenaire devra se reconnecter.</string>
+    <string name="ok">OK</string>
+    <string name="default_web_client_id">633769435038-5jne4601lve97h3r0ai1eg08j3v21raj.apps.googleusercontent.com</string>
+    <string name="note_placeholder">Texte de la note…</string>
+    <string name="note_pin_desc">Épingler</string>
+    <string name="note_edit_desc">Modifier</string>
+    <string name="note_delete_desc">Supprimer</string>
+    <string name="file_preview_desc">Aperçu du fichier</string>
+    <string name="video_play_desc">Lire la vidéo</string>
+    <string name="month_default">Janvier</string>
+    <string name="lock_welcome">Bienvenue</string>
+    <string name="lock_prompt">Entrez le code PIN ou utilisez la biométrie</string>
+    <string name="lock_login">Connexion</string>
+    <string name="date_range_from">du</string>
+    <string name="date_range_to">au</string>
+    <string name="date_range_close">Fermer</string>
+    <string name="date_range_save">Enregistrer</string>
+    <string name="settings_date_to">au</string>
+    <string name="settings_title_label">⚙️ Paramètres</string>
+    <string name="settings_date_range">📅 Plage : du</string>
+    <string name="settings_vibration">📳 Vibration</string>
+    <string name="settings_auth">🔒 Sécurité de l\'application</string>
+    <string name="settings_lock_timeout">⏱ Verrouillage après</string>
+    <string name="settings_lock_timeout_value">1 min</string>
+    <string name="settings_language">🌐 Langue</string>
+    <string name="settings_background">🎨 Fond de l\'application</string>
+    <string name="settings_background_default">Standard</string>
+    <string name="settings_background_set">Choisir une image</string>
+    <string name="settings_background_clear">Supprimer le fond</string>
+    <string name="settings_glass_opacity">Opacité de l\'interface</string>
+    <string name="settings_dialog_opacity">Opacité des dialogues</string>
+    <string name="settings_font_color">Couleur du texte</string>
+    <string name="settings_statistics">📊 Statistiques</string>
+    <string name="stats_photos_placeholder">📸 Photos : 0</string>
+    <string name="stats_files_placeholder">📁 Fichiers : 0</string>
+    <string name="stats_calendar_files_placeholder">📅 Fichiers datés : 0</string>
+    <string name="stats_notes_placeholder">📝 Notes : 0</string>
+    <string name="stats_storage_placeholder">💾 Mémoire : 0 Mo</string>
+    <string name="calendar_button">💌 Appuyez sur le bouton 💌</string>
+    <string name="notes_title_label">📝 Mes pensées</string>
+    <string name="notes_save_button">💖 Enregistrer la note</string>
+    <string name="notes_save">💾 Enregistrer</string>
+    <string name="notes_cancel">❌ Annuler</string>
+    <string name="notes_saved_label">📋 Mes notes enregistrées :</string>
+    <string name="files_last_file">📄 Dernier fichier</string>
+    <string name="gallery_last_photo">📸 Dernière photo</string>
+    <string name="date_dialog_example">📅 14 Février</string>
+    <string name="date_files_title">📁 Fichiers de cette date</string>
+    <string name="date_files_zero">📁 Fichiers : 0</string>
+    <string name="dialog_files_title">📁 Tous les fichiers</string>
+    <string name="dialog_files_count">📁 Fichiers : 0</string>
+    <string name="dialog_photos_title">🖼️ Toutes les photos</string>
+    <string name="dialog_photos_count">🖼️ Photos : 0</string>
+    <string name="delete_all_title">Supprimer tous les fichiers ?</string>
+    <string name="delete_all_message">Êtes-vous sûr de vouloir supprimer tous les fichiers ? Cette action est irréversible.</string>
+    <string name="delete_all_date_message">Êtes-vous sûr de vouloir supprimer tous les fichiers de cette date ? Cette action est irréversible.</string>
+    <string name="permissions_not_granted">Certaines autorisations ne sont pas accordées</string>
+    <string name="gallery_description">Nos plus belles photos seront ici</string>
+    <string name="pick_photos_title">Choisissez des photos</string>
+    <string name="slideshow_counter">Diaporama : %1$d/%2$d</string>
+    <string name="slideshow_interval_title">Intervalle des diapos</string>
+    <string name="interval_3_sec">3 sec</string>
+    <string name="interval_5_sec">5 sec</string>
+    <string name="interval_7_sec">7 sec (par défaut)</string>
+    <string name="interval_10_sec">10 sec</string>
+    <string name="interval_15_sec">15 sec</string>
+    <string name="slideshow_started">Diaporama démarré</string>
+    <string name="slideshow_stopped">Diaporama arrêté</string>
+    <string name="files_title">🥺</string>
+    <string name="files_subtitle">Tous nos fichiers au même endroit</string>
+    <string name="pick_files_title">Choisissez des fichiers</string>
+    <string name="no_files_message">Aucun fichier téléchargé\nAppuyez sur 📥 pour ajouter</string>
+    <string name="no_file_picker">Aucune application pour choisir des fichiers</string>
+    <string name="notes_title">📝 Mes pensées</string>
+    <string name="note_hint_add">Écrivez tout ce qui vous passe par la tête…</string>
+    <string name="note_hint_edit">Modifiez la note…</string>
+    <string name="note_saved_toast">Note enregistrée !</string>
+    <string name="note_empty_warning">Écrivez quelque chose avant d\'enregistrer</string>
+    <string name="note_editing_toast">Modifiez la note</string>
+    <string name="note_updated_toast">Note mise à jour !</string>
+    <string name="note_empty_error">La note ne peut pas être vide</string>
+    <string name="note_deleted">Note supprimée</string>
+    <string name="undo">Annuler</string>
+    <string name="settings_title">⚙️ Paramètres</string>
+    <string name="error_date_range_invalid">La date de début ne peut pas être postérieure à la date de fin</string>
+    <string name="auth_enabled_toast">Authentification activée</string>
+    <string name="lock_timeout_dialog_title">Verrouillage après</string>
+    <string name="timeout_immediately">Immédiatement</string>
+    <string name="timeout_30_sec">30 sec</string>
+    <string name="timeout_1_min">1 min</string>
+    <string name="timeout_5_min">5 min</string>
+    <string name="timeout_15_min">15 min</string>
+    <string name="timeout_30_min">30 min</string>
+    <string name="timeout_1_hour">1 heure</string>
+    <string name="timeout_never">Jamais</string>
+    <string name="biometric_setup_title">Configuration de la sécurité</string>
+    <string name="biometric_setup_subtitle">Confirmez avec votre empreinte ou votre visage</string>
+    <string name="biometric_negative_button">Annuler</string>
+    <string name="biometric_app_title">Connexion à l\'application</string>
+    <string name="biometric_app_subtitle">Utilisez votre empreinte ou votre visage</string>
+    <string name="enter_pin">Entrer le code PIN</string>
+    <string name="pin_title">Code PIN</string>
+    <string name="pin_setup_message">Entrez un code PIN à 4 chiffres pour la connexion de secours :</string>
+    <string name="pin_saved_toast">Code PIN enregistré</string>
+    <string name="pin_validation_error">Le code PIN doit contenir exactement 4 chiffres</string>
+    <string name="pin_enter_prompt">Entrez le code PIN</string>
+    <string name="pin_incorrect_remaining">PIN incorrect. Tentatives restantes : %d</string>
+    <string name="lockout_countdown">Verrouillage : %d sec.</string>
+    <string name="stats_photos">📸 Photos : %d</string>
+    <string name="stats_files">📁 Fichiers : %d</string>
+    <string name="stats_calendar_files">📅 Fichiers datés : %d</string>
+    <string name="stats_storage">💾 Mémoire : %.1f Mo</string>
+    <string name="stats_notes">📝 Notes : %d</string>
+    <string name="dialog_all_photos">🖼️ Toutes les photos</string>
+    <string name="dialog_photos_prefix">🖼️ Photos :</string>
+    <string name="dialog_all_files">📁 Tous les fichiers</string>
+    <string name="dialog_files_prefix">📁 Fichiers :</string>
+    <string name="date_files_count">📁 Fichiers : %d</string>
+    <string name="pick_files_for_date">Choisissez des fichiers pour la date</string>
+    <string name="nickname_title">Changer le pseudo</string>
+    <string name="nickname_updated">Pseudo mis à jour</string>
+    <string name="nickname_label">Pseudo</string>
+    <string name="message_placeholder">—</string>
+    <string name="partner_default">Partenaire</string>
+    <string name="me_default">Moi</string>
+    <string name="waiting_partner">en attente du partenaire</string>
+    <string name="pairing_info_message">Vous : %1$s\nPartenaire : %2$s\nCode : %3$s</string>
+    <string name="signin_error">Erreur de connexion : %1$d</string>
+    <string name="notification_channel_name">Rappels précis</string>
+    <string name="notification_channel_desc">Notifications à l\'heure exacte</string>
+    <string name="notification_channel_messages_name">Messages du partenaire</string>
+    <string name="notification_channel_messages_desc">Notifications des messages du partenaire</string>
+    <string name="notification_morning_title">🐝 Bonjour mon amour 💖</string>
+    <string name="notification_morning_text">Que ta journée ne soit remplie que de bonheur, je t\'aime</string>
+    <string name="notification_night_title">🌙 Bonne nuit mon chéri 💕</string>
+    <string name="notification_night_text">Je t\'aime très fort. Bisous, câlins</string>
+    <string name="notification_random_title">De la chaleur de ma part 💖</string>
+    <string name="error_open_image">Impossible d\'ouvrir l\'image</string>
+    <string name="error_file_not_found">Fichier non trouvé</string>
+    <string name="error_install_file_app">Installez une application pour ouvrir les fichiers</string>
+    <string name="error_open_file">Impossible d\'ouvrir le fichier</string>
+    <string name="holiday_new_year">Nouvel An</string>
+    <string name="holiday_valentines_day">Saint-Valentin</string>
+    <string name="holiday_defender_day">Jour du Défenseur de la Patrie</string>
+    <string name="holiday_womens_day">Jour international de la Femme</string>
+    <string name="holiday_spring_labor">Fête du Travail</string>
+    <string name="holiday_victory_day">Jour de la Victoire</string>
+    <string name="holiday_russia_day">Jour de la Russie</string>
+    <string name="holiday_unity_day">Jour de l\'Unité nationale</string>
+    <string name="month_january">Janvier</string>
+    <string name="month_february">Février</string>
+    <string name="month_march">Mars</string>
+    <string name="month_april">Avril</string>
+    <string name="month_may">Mai</string>
+    <string name="month_june">Juin</string>
+    <string name="month_july">Juillet</string>
+    <string name="month_august">Août</string>
+    <string name="month_september">Septembre</string>
+    <string name="month_october">Octobre</string>
+    <string name="month_november">Novembre</string>
+    <string name="month_december">Décembre</string>
+    <string name="month_genitive_january">Janvier</string>
+    <string name="month_genitive_february">Février</string>
+    <string name="month_genitive_march">Mars</string>
+    <string name="month_genitive_april">Avril</string>
+    <string name="month_genitive_may">Mai</string>
+    <string name="month_genitive_june">Juin</string>
+    <string name="month_genitive_july">Juillet</string>
+    <string name="month_genitive_august">Août</string>
+    <string name="month_genitive_september">Septembre</string>
+    <string name="month_genitive_october">Octobre</string>
+    <string name="month_genitive_november">Novembre</string>
+    <string name="month_genitive_december">Décembre</string>
+    <string name="export_started">Exportation démarrée…</string>
+    <string name="export_success">Exportation terminée</string>
+    <string name="export_error">Erreur d\'exportation</string>
+    <string name="export_options_title">Que exporter ?</string>
+    <string name="export_option_notes">Notes</string>
+    <string name="export_option_files">Fichiers</string>
+    <string name="export_option_background">Arrière-plan</string>
+    <string name="export_option_settings">Paramètres</string>
+    <string name="import_started">Importation démarrée…</string>
+    <string name="import_success">Importation terminée</string>
+    <string name="import_restart">Importation terminée, veuillez redémarrer l\'application</string>
+    <string name="import_error">Erreur d\'importation</string>
+    <string name="import_confirm_title">Importer les données</string>
+    <string name="import_confirm_message">Remplacer les données actuelles par celles importées ?</string>
+    <string name="import_confirm_replace">Remplacer</string>
+    <string name="import_confirm_merge">Fusionner</string>
+    <string name="export_share">Partager l\'archive</string>
+    <string name="export_saved_to_downloads">Enregistré dans Téléchargements</string>
+    <string name="settings_backup">💾 Sauvegarde</string>
+    <string name="settings_export">📤 Exporter les données</string>
+    <string name="settings_import">📥 Importer les données</string>
+    <string name="color_picker_title">Choisir la couleur</string>
+    <string name="color_picker_custom">Couleur personnalisée (appuyez pour modifier)</string>
+    <string name="export_notification_preparing">Préparation de l\'export…</string>
+    <string name="export_notification_manifest">Export : manifeste</string>
+    <string name="export_notification_notes">Export : notes</string>
+    <string name="export_notification_files">Export : fichiers</string>
+    <string name="export_notification_complete">Exportation terminée</string>
+    <string name="export_notification_error">Erreur d\'exportation</string>
+    <string name="import_notification_preparing">Préparation de l\'import…</string>
+    <string name="import_notification_complete">Importation terminée</string>
+    <string name="import_notification_error">Erreur d\'importation</string>
+    <string name="export_channel_name">Export/Import</string>
+    <string name="date_dialog_title_format">📅 %1$d %2$s</string>
+
+    <string-array name="secret_messages">
+        <item>Avec toi je me sens la personne la plus heureuse du monde</item>
+        <item>Tu es ma moitié, mon destin</item>
+        <item>Je t\'aime plus que les mots ne peuvent l\'exprimer</item>
+        <item>Tu rends chaque jour meilleur</item>
+        <item>Mon monde est devenu plus lumineux quand tu es apparu dans ma vie</item>
+        <item>Je veux passer le reste de ma vie avec toi</item>
+        <item>Tu es la meilleure chose qui me soit arrivée</item>
+        <item>Je pense à toi chaque minute où nous ne sommes pas ensemble</item>
+        <item>Ta sourire est ma lumière préférée</item>
+        <item>Je suis reconnaissant envers le destin de t\'avoir</item>
+        <item>Tu es mon amour, ma vie, mon univers</item>
+        <item>Chaque jour avec toi est un cadeau</item>
+        <item>Je t\'aime comme je n\'aurais jamais pensé pouvoir aimer</item>
+        <item>Tu es ma maison, mon port sûr</item>
+        <item>Avec toi je suis devenu meilleur</item>
+        <item>Tu es la plus belle chose que j\'aie vue dans ma vie</item>
+        <item>Je veux te serrer dans mes bras chaque matin et chaque soir</item>
+        <item>Tu es mon inspiration</item>
+        <item>J\'aime nos petits moments ensemble</item>
+        <item>Tu es la seule que je veux voir chaque matin</item>
+        <item>Mon amour pour toi grandit chaque jour</item>
+        <item>Tu es mon bonheur, ma joie</item>
+        <item>Je veux être à tes côtés pour toujours</item>
+        <item>Tu es ma lumière dans l\'obscurité</item>
+        <item>Je t\'aime pour qui tu es</item>
+        <item>Tu es mon avenir</item>
+        <item>Avec toi je suis prêt à tout</item>
+        <item>Tu es ce que j\'ai de plus précieux</item>
+        <item>Je veux créer avec toi un million de souvenirs</item>
+        <item>Tu es mon amour éternel</item>
+        <item>Je t\'aime plus qu\'hier, moins que demain</item>
+        <item>Tu es mon cœur, mon âme</item>
+        <item>Je veux t\'offrir des fleurs chaque jour</item>
+        <item>Tu es mon idéal</item>
+        <item>J\'aime nos promenades sous la lune</item>
+        <item>Tu es ma magie</item>
+        <item>Je veux me réveiller à tes côtés chaque matin</item>
+        <item>Tu es ma tendresse, mes soins</item>
+        <item>Je t\'aime de tout mon cœur</item>
+        <item>Tu es mon inspiration de vivre</item>
+        <item>Je veux être ton soutien et ta protection</item>
+        <item>Tu es ma joie</item>
+        <item>J\'aime nos nuits ensemble</item>
+        <item>Tu es mon matin, mon jour, ma nuit</item>
+        <item>Je veux te serrer si fort que tu sentes mon amour</item>
+        <item>Tu es mon miracle</item>
+        <item>Je t\'aime infiniment</item>
+        <item>Tu es mon repos</item>
+        <item>Je veux être avec toi quand le soleil se couche et quand il se lève</item>
+        <item>Tu es ma beauté</item>
+        <item>J\'aime nos baisers</item>
+        <item>Tu es mon soleil</item>
+        <item>Je veux te tenir par la main toute ma vie</item>
+        <item>Tu es mon rêve</item>
+        <item>Je t\'aime plus que tout au monde</item>
+        <item>Tu es mon trésor</item>
+        <item>Je veux t\'embrasser chaque jour</item>
+        <item>Tu es mon étoile</item>
+        <item>J\'aime nos conversations jusqu\'au matin</item>
+        <item>Tu es mon tout</item>
+        <item>Je veux être avec toi pour toujours</item>
+        <item>Tu es mon amour pour toujours</item>
+        <item>Je t\'aime si fort que c\'est indescriptible</item>
+        <item>Tu es mon bonheur</item>
+        <item>Je veux te serrer dans mes bras et ne jamais te lâcher</item>
+        <item>Tu es ma vie</item>
+        <item>J\'aime nos petites blagues</item>
+        <item>Tu es mon inspiration</item>
+        <item>Je veux être à tes côtés éternellement</item>
+        <item>Tu es mon monde</item>
+        <item>Je t\'aime plus que la vie</item>
+        <item>Tu es mon cœur</item>
+        <item>Je veux t\'offrir du bonheur chaque jour</item>
+        <item>Tu es ma joie</item>
+        <item>J\'aime nos moments à deux</item>
+        <item>Tu es ma magie</item>
+        <item>Tu es ma tendresse</item>
+        <item>Je t\'aime de tout mon cœur et de toute mon âme</item>
+        <item>Tu es mon inspiration</item>
+        <item>Je veux te serrer dans mes bras chaque nuit</item>
+        <item>Tu es ma joie</item>
+        <item>J\'aime nos matins ensemble</item>
+        <item>Tu es mon soleil</item>
+        <item>Je veux être avec toi toujours et partout</item>
+        <item>Tu es mon amour</item>
+        <item>Je t\'aime plus que les mots</item>
+        <item>Tu es mon bonheur</item>
+        <item>Je veux t\'offrir des fleurs</item>
+        <item>Tu es mon étoile</item>
+        <item>J\'aime nos baisers</item>
+        <item>Tu es mon cœur</item>
+        <item>Je veux être avec toi pour toujours</item>
+        <item>Tu es ma vie</item>
+        <item>Je t\'aime infiniment</item>
+        <item>Tu es mon inspiration</item>
+        <item>Je veux te serrer dans mes bras</item>
+        <item>Tu es ma joie</item>
+        <item>J\'aime nos moments</item>
+        <item>Tu es ma magie</item>
+        <item>Je veux être à tes côtés</item>
+        <item>Tu es ma tendresse</item>
+        <item>Je t\'aime</item>
+        <item>Tu es mon bonheur</item>
+        <item>Je veux t\'offrir de la joie</item>
+        <item>Tu es mon étoile</item>
+        <item>J\'aime nos conversations</item>
+        <item>Tu es mon cœur</item>
+        <item>Je veux être avec toi</item>
+        <item>Tu es ma vie</item>
+        <item>Je t\'aime plus que tout</item>
+        <item>Tu es mon inspiration</item>
+        <item>Je veux te serrer dans mes bras</item>
+        <item>Tu es ma joie</item>
+        <item>J\'aime nos moments</item>
+        <item>Tu es ma magie</item>
+        <item>Je veux être à tes côtés</item>
+        <item>Tu es ma tendresse</item>
+        <item>Je t\'aime</item>
+        <item>Tu es mon bonheur</item>
+        <item>Je veux t\'offrir de la joie</item>
+        <item>Tu es mon étoile</item>
+    </string-array>
+
+    <string-array name="random_notification_messages">
+        <item>Je pense à toi en ce moment</item>
+        <item>Tu es toujours dans mes pensées</item>
+        <item>Je me sens seul sans toi</item>
+        <item>Je t\'aime</item>
+        <item>Tu es le meilleur en moi</item>
+        <item>Je veux te serrer dans mes bras</item>
+        <item>Tu es mon soleil</item>
+        <item>Merci d\'être là</item>
+        <item>Je suis heureux avec toi</item>
+        <item>Tu es mon amour</item>
+        <item>Je pense à toi</item>
+        <item>Je me sens seul</item>
+        <item>Je t\'aime</item>
+        <item>Je veux te serrer</item>
+        <item>Tu es la meilleure chose qui me soit arrivée</item>
+        <item>Je t\'embrasse fort</item>
+        <item>Tu es mon monde</item>
+        <item>Merci pour tout</item>
+        <item>Chaque jour est une fête</item>
+        <item>Je t\'aime pour toujours</item>
+        <item>Tu es mon inspiration</item>
+        <item>Je pense à toi chaque minute</item>
+        <item>Je t\'aime de tout mon cœur</item>
+        <item>Je veux être à tes côtés</item>
+        <item>Tu es ma joie</item>
+        <item>Je pense à nos moments</item>
+        <item>Je me souviens de tes bras</item>
+        <item>Je t\'aime</item>
+        <item>Tu es ma maison</item>
+        <item>Je veux t\'embrasser</item>
+        <item>Tu es ma tendresse</item>
+        <item>Je pense à notre avenir</item>
+        <item>Je me souviens de ta voix</item>
+        <item>J\'aime nos conversations</item>
+        <item>Tu es ma joie</item>
+        <item>Je veux te tenir par la main</item>
+        <item>Tu es ma lumière</item>
+        <item>Je pense à ton sourire</item>
+        <item>Je me souviens de tes baisers</item>
+        <item>J\'aime nos promenades</item>
+        <item>Tu es mon miracle</item>
+        <item>Je veux me réveiller à tes côtés</item>
+        <item>Tu es mon rêve</item>
+        <item>Je pense à tes yeux</item>
+        <item>Je me souviens de tes caresses</item>
+        <item>J\'aime nos nuits ensemble</item>
+        <item>Tu es ma magie</item>
+        <item>Je veux te serrer chaque jour</item>
+        <item>Tu es mon ange</item>
+        <item>Je pense à toi et je souris</item>
+        <item>Je me souviens de ta chaleur</item>
+        <item>Je t\'aime plus que la vie</item>
+        <item>Tu es mon univers</item>
+        <item>Je veux être ton soutien</item>
+        <item>Tu es mon sens</item>
+        <item>Je pense à toi et mon cœur se réchauffe</item>
+        <item>Je me souviens de nos soirées</item>
+        <item>Je t\'aime pour toujours</item>
+        <item>Tu es mon bonheur</item>
+        <item>Je veux t\'offrir des fleurs</item>
+        <item>Tu es mon étoile</item>
+    </string-array>
+</resources>

@@ -1,0 +1,24 @@
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+/build
+/captures
+.externalNativeBuild
+.cxx
+.DS_Store
+
+# IDE
+.idea/
+
+# Node (Firebase Functions)
+node_modules/
+
+# Секреты/локальная конфигурация
+google-services.json
+
+# Ключи подписи
+*.jks
+*.keystore
+
+app/debug/

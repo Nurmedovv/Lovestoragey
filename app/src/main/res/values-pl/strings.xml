@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lovestor(age)y</string>
+    <string name="message_format">💖 %s 💖</string>
+
+    <!-- Ogólne -->
+    <string name="cancel">Anuluj</string>
+    <string name="save">Zapisz</string>
+    <string name="delete_all">Usuń wszystko</string>
+    <string name="error_title">Błąd</string>
+
+    <!-- Język -->
+    <string name="language_title">Język</string>
+    <string name="language_system">Systemowy</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_english">English</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_italian">Italiano</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_polish">Polski</string>
+    <string name="language_turkish">Türkçe</string>
+    <string name="language_arabic">العربية</string>
+
+    <!-- Dialog usuwania -->
+    <string name="delete_all_title">Usunąć wszystkie pliki?</string>
+    <string name="delete_all_message">Czy na pewno chcesz usunąć wszystkie pliki? Tej operacji nie można cofnąć.</string>
+    <string name="delete_all_date_message">Czy na pewno chcesz usunąć wszystkie pliki z tej daty? Tej operacji nie można cofnąć.</string>
+
+    <!-- MainActivity -->
+    <string name="permissions_not_granted">Niektóre uprawnienia nie zostały przyznane</string>
+
+    <!-- Galeria -->
+    <string name="gallery_description">Tutaj będą nasze najpiękniejsze zdjęcia</string>
+    <string name="pick_photos_title">Wybierz zdjęcia</string>
+    <string name="slideshow_counter">Pokaz slajdów: %1$d/%2$d</string>
+    <string name="slideshow_interval_title">Interwał slajdów</string>
+    <string name="interval_3_sec">3 sek</string>
+    <string name="interval_5_sec">5 sek</string>
+    <string name="interval_7_sec">7 sek (domyślny)</string>
+    <string name="interval_10_sec">10 sek</string>
+    <string name="interval_15_sec">15 sek</string>
+    <string name="slideshow_started">Pokaz slajdów uruchomiony</string>
+    <string name="slideshow_stopped">Pokaz slajdów zatrzymany</string>
+
+    <!-- Pliki -->
+    <string name="files_title">\uD83E\uDD7A</string>
+    <string name="files_subtitle">Wszystkie nasze pliki w jednym miejscu</string>
+    <string name="pick_files_title">Wybierz pliki</string>
+    <string name="no_files_message">Brak przesłanych plików\nNaciśnij \uD83D\uDCE5 aby dodać</string>
+    <string name="no_file_picker">Brak aplikacji do wyboru plików</string>
+
+    <!-- Notatki -->
+    <string name="notes_title">\uD83D\uDCDD Moje przemyślenia</string>
+    <string name="note_hint_add">Napisz tutaj wszystko, co przychodzi Ci do głowy…</string>
+    <string name="note_hint_edit">Edytuj notatkę…</string>
+    <string name="note_saved_toast">Notatka zapisana!</string>
+    <string name="note_empty_warning">Napisz coś przed zapisaniem</string>
+    <string name="note_editing_toast">Edytowanie notatki</string>
+    <string name="note_updated_toast">Notatka zaktualizowana!</string>
+    <string name="note_empty_error">Notatka nie może być pusta</string>
+    <string name="note_deleted">Notatka usunięta</string>
+    <string name="undo">Cofnij</string>
+
+    <!-- Ustawienia -->
+    <string name="settings_title">\u2699\uFE0F Ustawienia</string>
+    <string name="error_date_range_invalid">Data rozpoczęcia nie może być późniejsza niż data zakończenia</string>
+    <string name="nickname_title">Zmień pseudonim</string>
+    <string name="nickname_updated">Pseudonim zaktualizowany</string>
+    <string name="nickname_label">Pseudonim</string>
+    <string name="message_placeholder">—</string>
+    <string name="partner_default">Partner</string>
+    <string name="me_default">Ja</string>
+    <string name="waiting_partner">oczekiwanie na partnera</string>
+    <string name="pairing_info_message">Ty: %1$s\nPartner: %2$s\nKod: %3$s</string>
+    <string name="signin_error">Błąd logowania: %1$d</string>
+    <string name="auth_enabled_toast">Uwierzytelnianie włączone</string>
+    <string name="lock_timeout_dialog_title">Zablokuj po</string>
+    <string name="timeout_immediately">Natychmiast</string>
+    <string name="timeout_30_sec">30 sek</string>
+    <string name="timeout_1_min">1 min</string>
+    <string name="timeout_5_min">5 min</string>
+    <string name="timeout_15_min">15 min</string>
+    <string name="timeout_30_min">30 min</string>
+    <string name="timeout_1_hour">1 godzina</string>
+    <string name="timeout_never">Nigdy</string>
+
+    <!-- Biometria -->
+    <string name="biometric_setup_title">Konfiguracja bezpieczeństwa</string>
+    <string name="biometric_setup_subtitle">Potwierdź odciskiem palca lub twarzą</string>
+    <string name="biometric_negative_button">Anuluj</string>
+    <string name="biometric_app_title">Logowanie do aplikacji</string>
+    <string name="biometric_app_subtitle">Użyj odcisku palca lub twarzy</string>
+    <string name="enter_pin">Wprowadź PIN</string>
+
+    <!-- PIN -->
+    <string name="pin_title">Kod PIN</string>
+    <string name="pin_setup_message">Wprowadź 4-cyfrowy PIN do zapasowego dostępu:</string>
+    <string name="pin_saved_toast">PIN zapisany</string>
+    <string name="pin_validation_error">PIN musi zawierać dokładnie 4 cyfry</string>
+    <string name="pin_enter_prompt">Wprowadź kod PIN</string>
+    <string name="pin_incorrect_remaining">Nieprawidłowy PIN. Pozostałe próby: %d</string>
+    <string name="lockout_countdown">Zablokowany: %d sek.</string>
+
+    <!-- Statystyki -->
+    <string name="stats_photos">\uD83D\uDCF8 Zdjęcia: %d</string>
+    <string name="stats_files">\uD83D\uDCC1 Pliki: %d</string>
+    <string name="stats_calendar_files">\uD83D\uDCC5 Pliki dat: %d</string>
+    <string name="stats_storage">\uD83D\uDCBE Pamięć: %.1f MB</string>
+    <string name="stats_notes">\uD83D\uDCDD Notatki: %d</string>
+
+    <!-- Dialogi galerii/plików -->
+    <string name="dialog_all_photos">\uD83D\uDDBC️ Wszystkie zdjęcia</string>
+    <string name="dialog_photos_prefix">\uD83D\uDDBC️ Zdjęcia:</string>
+    <string name="dialog_all_files">\uD83D\uDCC1 Wszystkie pliki</string>
+    <string name="dialog_files_prefix">\uD83D\uDCC1 Pliki:</string>
+
+    <!-- Dialog daty -->
+    <string name="date_files_count">\uD83D\uDCC1 Pliki: %d</string>
+    <string name="pick_files_for_date">Wybierz pliki dla daty</string>
+
+    <!-- Powiadomienia -->
+    <string name="notification_channel_name">Dokładne przypomnienia</string>
+    <string name="notification_channel_desc">Powiadomienia o dokładnej godzinie</string>
+    <string name="notification_channel_messages_name">Wiadomości partnera</string>
+    <string name="notification_channel_messages_desc">Powiadomienia o wiadomościach od partnera</string>
+    <string name="notification_morning_title">\uD83D\uDC1D Dzień dobry, kochanie \uD83D\uDC96</string>
+    <string name="notification_morning_text">Niech Twój dzień przyniesie Ci tylko radość, kocham Cię</string>
+    <string name="notification_night_title">\uD83C\uDF19 Dobranoc, moja mała \uD83D\uDC95</string>
+    <string name="notification_night_text">Kocham Cię bardzo. Całuję, przytulam</string>
+    <string name="notification_random_title">Ciepło ode mnie \uD83D\uDC96</string>
+
+    <!-- Błędy plików -->
+    <string name="error_open_image">Nie udało się otworzyć obrazu</string>
+    <string name="error_file_not_found">Plik nie znaleziony</string>
+    <string name="error_install_file_app">Zainstaluj aplikację do otwierania plików</string>
+    <string name="error_open_file">Nie udało się otworzyć pliku</string>
+
+    <!-- Święta -->
+    <string name="holiday_new_year">Nowy Rok</string>
+    <string name="holiday_valentines_day">Walentynki</string>
+    <string name="holiday_defender_day">Dzień Obrońcy Ojczyzny</string>
+    <string name="holiday_womens_day">Międzynarodowy Dzień Kobiet</string>
+    <string name="holiday_spring_labor">Święto Pracy</string>
+    <string name="holiday_victory_day">Dzień Zwycięstwa</string>
+    <string name="holiday_russia_day">Dzień Rosji</string>
+    <string name="holiday_unity_day">Dzień Jedności Narodowej</string>
+
+    <!-- Miesiące (mianownik) -->
+    <string name="month_january">Styczeń</string>
+    <string name="month_february">Luty</string>
+    <string name="month_march">Marzec</string>
+    <string name="month_april">Kwiecień</string>
+    <string name="month_may">Maj</string>
+    <string name="month_june">Czerwiec</string>
+    <string name="month_july">Lipiec</string>
+    <string name="month_august">Sierpień</string>
+    <string name="month_september">Wrzesień</string>
+    <string name="month_october">Październik</string>
+    <string name="month_november">Listopad</string>
+    <string name="month_december">Grudzień</string>
+
+    <!-- Miesiące (dopełniacz) -->
+    <string name="month_genitive_january">Stycznia</string>
+    <string name="month_genitive_february">Lutego</string>
+    <string name="month_genitive_march">Marca</string>
+    <string name="month_genitive_april">Kwietnia</string>
+    <string name="month_genitive_may">Maja</string>
+    <string name="month_genitive_june">Czerwca</string>
+    <string name="month_genitive_july">Lipca</string>
+    <string name="month_genitive_august">Sierpnia</string>
+    <string name="month_genitive_september">Września</string>
+    <string name="month_genitive_october">Października</string>
+    <string name="month_genitive_november">Listopada</string>
+    <string name="month_genitive_december">Grudnia</string>
+
+    <!-- Tajemne wiadomości -->
+    <string-array name="secret_messages">
+        <item>Z Tobą czuję się najszczęśliwszą osobą na świecie</item>
+        <item>Jesteś moją drugą połówką, moim przeznaczeniem</item>
+        <item>Kocham Cię bardziej, niż słowa mogą wyrazić</item>
+        <item> sprawiasz, że każdy dzień jest lepszy</item>
+        <item>Mój świat stał się jaśniejszy, gdy pojawiłeś się w moim życiu</item>
+        <item>Chcę spędzić resztę życia z Tobą</item>
+        <item>Jesteś najlepszą rzeczą, jaka mi się przydarzyła</item>
+        <item>Tęsknię za Tobą każdą minutę, gdy nie jesteśmy razem</item>
+        <item>Twój uśmiech jest moim ulubionym światłem</item>
+        <item>Jestem wdzięczny losowi, że Cię mam</item>
+        <item>Jesteś moją miłością, moim życiem, moim wszechświatem</item>
+        <item>Każdy dzień z Tobą to prezent</item>
+        <item>Kocham Cię tak, jak nigdy nie myślałem, że będę mógł kochać</item>
+        <item>Jesteś moim domem, moim spokojnym portem</item>
+        <item>Z Tobą stałem się lepszy</item>
+        <item>Jesteś najpiękniejszą rzeczą, jaką widziałem w życiu</item>
+        <item>Chcę Cię przytulać każde rano i każdy wieczór</item>
+        <item>Jesteś moją muzą, moją inspiracją</item>
+        <item>Kocham nasze małe chwile razem</item>
+        <item>Jesteś jedyną, którą chcę widzieć każde rano</item>
+        <item>Moja miłość do Ciebie rośnie każdego dnia</item>
+        <item>Jesteś moim szczęściem, moją radością</item>
+        <item>Chcę być przy Tobie zawsze</item>
+        <item>Jesteś moim światłem w ciemności</item>
+        <item>Kocham Cię za to, kim jesteś</item>
+        <item>Jesteś moją przyszłością</item>
+        <item>Z Tobą jestem gotowy na wszystko</item>
+        <item>Jesteś najcenniejszą rzeczą, jaką mam</item>
+        <item>Chcę stworzyć milion wspomnień z Tobą</item>
+        <item>Jesteś moją wieczną miłością</item>
+        <item>Kocham Cię bardziej niż wczoraj, mniej niż jutro</item>
+        <item>Jesteś moim sercem, moją duszą</item>
+        <item>Chcę dawać Ci kwiaty każdego dnia</item>
+        <item>Jesteś moim ideałem</item>
+        <item>Kocham nasze spacery po Księżycu</item>
+        <item>Jesteś moją magią</item>
+        <item>Chcę budzić się obok Ciebie każde rano</item>
+        <item>Jesteś moją czułością, moją troską</item>
+        <item>Kocham Cię całym sercem</item>
+        <item>Jesteś moją inspiracją do życia</item>
+        <item>Chcę być Twoim wsparciem i ochroną</item>
+        <item>Jesteś moją radością</item>
+        <item>Kocham nasze noce razem</item>
+        <item>Jesteś moim rankiem, moim dniem, moją nocą</item>
+        <item>Chcę Cię przytulać tak mocno, byś poczuł(a) moją miłość</item>
+        <item>Jesteś moim cudem</item>
+        <item>Kocham Cię bezgranicznie</item>
+        <item>Jesteś moim spokojem</item>
+        <item>Chcę być z Tobą, gdy słońce zachodzi i wschodzi</item>
+        <item>Jesteś moją pięknością</item>
+        <item>Kocham nasze pocałunki</item>
+        <item>Jesteś moim słońcem</item>
+        <item>Chcę trzymać Cię za rękę przez całe życie</item>
+        <item>Jesteś moim snem</item>
+        <item>Kocham Cię bardziej niż cokolwiek na świecie</item>
+        <item>Jesteś moim skarbem</item>
+        <item>Chcę całować Cię każdego dnia</item>
+        <item>Jesteś moją gwiazdą</item>
+    </string-array>
+
+    <string-array name="random_notification_messages">
+        <item>Mylślę o Tobie właśnie teraz</item>
+        <item>Jesteś zawsze w moich myślach</item>
+        <item>Tęsknię za Tobą</item>
+        <item>Kocham Cię</item>
+        <item>Jesteś najlepszym we mnie</item>
+        <item>Chcę Cię przytulić</item>
+        <item>Jesteś moim słońcem</item>
+        <item>Dziękuję, że tu jesteś</item>
+        <item>Jestem szczęśliwy(a) z Tobą</item>
+        <item>Jesteś moją miłością</item>
+        <item>Myślę o Tobie</item>
+        <item>Tęsknię</item>
+        <item>Kocham</item>
+        <item>Przytulam Cię</item>
+        <item>Jesteś najlepszą rzeczą, która mi się przydarzyła</item>
+        <item>Przytulam mocno</item>
+        <item>Jesteś moim światem</item>
+        <item>Dziękuję za wszystko</item>
+        <item>Szczęśliwy(a) każdego dnia</item>
+        <item>Kocham bezgranicznie</item>
+        <item>Jesteś moją inspiracją</item>
+        <item>Tęsknię każdą minutę</item>
+        <item>Kocham całym sercem</item>
+        <item>Chcę być przy Tobie</item>
+        <item>Jesteś moją radością</item>
+        <item>Myślę o naszych chwilach</item>
+        <item>Tęsknię za Twoimi przytuleniami</item>
+        <item>Kocham naszą historię</item>
+        <item>Jesteś moim spokojem</item>
+        <item>Chcę Cię pocałować</item>
+        <item>Jesteś moją czułością</item>
+        <item>Myślę o naszej przyszłości</item>
+        <item>Tęsknię za Twoim głosem</item>
+        <item>Kocham nasze rozmowy</item>
+        <item>Jesteś moim urokiem</item>
+        <item>Chcę trzymać Cię za rękę</item>
+        <item>Jesteś moim światłem</item>
+        <item>Myślę o Twoim uśmiechu</item>
+        <item>Tęsknię za Twoimi pocałunkami</item>
+        <item>Kocham nasze spacery razem</item>
+        <item>Jesteś moim cudem</item>
+        <item>Chcę budzić się obok Ciebie</item>
+        <item>Jesteś moim snem</item>
+        <item>Myślę o Twoich oczach</item>
+        <item>Tęsknię za Twoim dotykiem</item>
+        <item>Kocham nasze noce razem</item>
+        <item>Jesteś moją magią</item>
+        <item>Chcę Cię przytulać każdego dnia</item>
+        <item>Jesteś moim aniołem</item>
+        <item>Myślę o Tobie i się uśmiecham</item>
+        <item>Tęsknię za Twoim ciepłem</item>
+        <item>Kocham Cię bardziej niż życie</item>
+        <item>Jesteś moim wszechświatem</item>
+        <item>Chcę być Twoim wsparciem</item>
+        <item>Jesteś moim sensem</item>
+        <item>Myślę o Tobie i serce się rozgrzewa</item>
+        <item>Tęsknię za naszymi wieczorami</item>
+        <item>Kocham Cię na zawsze</item>
+        <item>Jesteś moim szczęściem</item>
+        <item>Chcę dawać Ci kwiaty</item>
+        <item>Jesteś moją gwiazdą</item>
+    </string-array>
+
+    <!-- Layout: fragment_gallery -->
+    <string name="gallery_preview_desc">Podgląd ostatniego zdjęcia</string>
+    <string name="gallery_open_hint">Naciśnij, aby otworzyć galerię</string>
+
+    <!-- Layout: fragment_files -->
+    <string name="files_preview_desc">Podgląd ostatniego pliku</string>
+    <string name="files_open_hint">Naciśnij, aby otworzyć wszystkie pliki</string>
+
+    <!-- Layout: fragment_notes -->
+    <string name="notes_search_hint">Szukaj notatek…</string>
+    <string name="notes_hint">Napisz tutaj wszystko, co przychodzi Ci do głowy…</string>
+
+    <!-- Layout: fragment_calendar -->
+    <string name="calendar_love_text">Kocham Cię bardzo💖</string>
+
+    <string name="calendar_quote">Czas minie, ale moja miłość do Ciebie nigdy</string>
+
+    <!-- Мессенджер пары -->
+    <string name="message_dialog_title">Wiadomość do partnera</string>
+    <string name="message_dialog_hint">Maks. 20 znaków</string>
+    <string name="message_input_hint">Napisz coś…</string>
+    <string name="send">Wyślij</string>
+    <string name="message_send_error">Nie udało się wysłać</string>
+    <string name="message_last_sent">Ostatnia wiadomość:</string>
+    <string name="auth_error">Błąd uwierzytelniania</string>
+
+
+    <!-- Uwierzytelnianie -->
+    <string name="sign_in_google">Zaloguj się przez Google</string>
+    <string name="sign_out">Wyloguj się</string>
+    <string name="auth_required">Najpierw zaloguj się przez Google</string>
+    <string name="auth_signed_in">Zalogowano jako %s</string>
+
+    <!-- Parowanie -->
+    <string name="pairing_title">Połącz z partnerem</string>
+    <string name="pairing_create">Utwórz parę</string>
+    <string name="pairing_or">— lub —</string>
+    <string name="pairing_join">Dołącz kodem</string>
+    <string name="pairing_back">Wstecz</string>
+    <string name="pairing_code_hint">Kod 6-znakowy</string>
+    <string name="pairing_code_title">Twój kod pary</string>
+    <string name="pairing_code_message">Przekaż ten kod partnerowi:\n\n%s</string>
+    <string name="pairing_code_error">Kod musi mieć 6 znaków</string>
+    <string name="pairing_success">Połączono z partnerem!</string>
+    <string name="pairing_not_found">Pary nie znaleziono. Sprawdź kod.</string>
+    <string name="pairing_paired">Połączono</string>
+    <string name="pairing_not_paired">Nie połączono</string>
+    <string name="pairing_unpair">Rozłącz parę</string>
+    <string name="pairing_unpair_title">Rozłączyć parę?</string>
+    <string name="pairing_unpair_message">Czy na pewno chcesz rozłączyć parę?</string>
+    <string name="pairing_unpaired">Rozłączono parę</string>
+    <string name="pairing_regenerate">Wygeneruj kod ponownie</string>
+    <string name="pairing_regenerate_title">Wygenerować kod ponownie?</string>
+    <string name="pairing_regenerate_message">Stary kod przestanie działać. Partner będzie musiał zalogować się ponownie.</string>
+    <string name="ok">OK</string>
+    <string name="default_web_client_id">633769435038-5jne4601lve97h3r0ai1eg08j3v21raj.apps.googleusercontent.com</string>
+    <!-- Layout: item_note -->
+    <string name="note_placeholder">Tekst notatki…</string>
+    <string name="note_pin_desc">Przypnij</string>
+    <string name="note_edit_desc">Edytuj</string>
+    <string name="note_delete_desc">Usuń</string>
+
+    <!-- Layout: item_file -->
+    <string name="file_preview_desc">Podgląd pliku</string>
+    <string name="video_play_desc">Odtwórz wideo</string>
+
+    <!-- Layout: item_calendar_month -->
+    <string name="month_default">Stycznia</string>
+
+    <!-- Layout: activity_lock_screen -->
+    <string name="lock_welcome">Witaj</string>
+    <string name="lock_prompt">Wprowadź PIN lub użyj biometrii</string>
+    <string name="lock_login">Zaloguj się</string>
+
+    <!-- Layout: dialog_date_range_picker -->
+    <string name="date_range_from">od</string>
+    <string name="date_range_to">do</string>
+    <string name="date_range_close">Zamknij</string>
+    <string name="date_range_save">Zapisz</string>
+
+    <!-- Layout: fragment_settings -->
+    <string name="settings_date_to">do</string>
+    <string name="settings_title_label">\u2699\uFE0F Ustawienia</string>
+    <string name="settings_date_range">\uD83D\uDCC5 Zakres: od</string>
+    <string name="settings_vibration">\uD83D\uDCF3 Wibracja</string>
+    <string name="settings_auth">\uD83D\uDD12 Ochrona aplikacji</string>
+    <string name="settings_lock_timeout">\u23F1 Blokuj po</string>
+    <string name="settings_lock_timeout_value">1 min</string>
+    <string name="settings_language">\uD83C\uDF10 Język</string>
+    <string name="settings_background">🎨 Tło aplikacji</string>
+    <string name="settings_background_default">Domyślne</string>
+    <string name="settings_background_set">Wybierz obraz</string>
+    <string name="settings_background_clear">Usuń tło</string>
+    <string name="settings_glass_opacity">Przezroczystość interfejsu</string>
+    <string name="settings_dialog_opacity">Przezroczystość okien dialogowych</string>
+    <string name="settings_font_color">Kolor czcionki</string>
+    <string name="settings_statistics">\uD83D\uDCCA Statystyki</string>
+    <string name="stats_photos_placeholder">\uD83D\uDCF8 Zdjęcia: 0</string>
+    <string name="stats_files_placeholder">\uD83D\uDCC1 Pliki: 0</string>
+    <string name="stats_calendar_files_placeholder">\uD83D\uDCC5 Pliki dat: 0</string>
+    <string name="stats_notes_placeholder">\uD83D\uDCDD Notatki: 0</string>
+    <string name="stats_storage_placeholder">\uD83D\uDCBE Pamięć: 0 MB</string>
+
+    <!-- Layout: fragment_calendar -->
+    <string name="calendar_button">\uD83D\uDC8C Naciśnij przycisk \uD83D\uDC8C</string>
+
+    <!-- Layout: fragment_notes -->
+    <string name="notes_title_label">\uD83D\uDCDD Moje przemyślenia</string>
+    <string name="notes_save_button">\uD83D\uDC96 Zapisz notatkę</string>
+    <string name="notes_save">\uD83D\uDCBE Zapisz</string>
+    <string name="notes_cancel">\u274C Anuluj</string>
+    <string name="notes_saved_label">\uD83D\uDCCB Moje zapisane notatki:</string>
+
+    <!-- Layout: fragment_files -->
+    <string name="files_last_file">\uD83D\uDCC4 Ostatni plik</string>
+
+    <!-- Layout: fragment_gallery -->
+    <string name="gallery_last_photo">\uD83D\uDCF8 Ostatnie zdjęcie</string>
+
+    <!-- Layout: dialog_date_simple -->
+    <string name="date_dialog_example">\uD83D\uDCC5 14 Lutego</string>
+    <string name="date_files_title">\uD83D\uDCC1 Pliki z tej daty</string>
+    <string name="date_files_zero">\uD83D\uDCC1 Pliki: 0</string>
+
+    <!-- Layout: dialog_page_files -->
+    <string name="dialog_files_title">\uD83D\uDCC1 Wszystkie pliki</string>
+    <string name="dialog_files_count">\uD83D\uDCC1 Pliki: 0</string>
+
+    <!-- Layout: dialog_page_gallery -->
+    <string name="dialog_photos_title">\uD83D\uDDBC️ Wszystkie zdjęcia</string>
+    <string name="dialog_photos_count">\uD83D\uDDBC️ Zdjęcia: 0</string>
+
+
+
+    <!-- Export/Import -->
+    <string name="settings_export">📤 Eksportuj dane</string>
+    <string name="export_success">Eksport zakończony</string>
+    <string name="settings_backup">💾 Kopia zapasowa</string>
+    <string name="export_error">Błąd eksportu</string>
+    <string name="export_options_title">Co wyeksportować?</string>
+    <string name="export_option_notes">Notatki</string>
+    <string name="export_option_files">Pliki</string>
+    <string name="export_option_background">Tło</string>
+    <string name="export_option_settings">Ustawienia</string>
+    <string name="import_confirm_message">Zastąpić aktualne dane importowanymi?</string>
+    <string name="import_started">Import rozpoczęty...</string>
+    <string name="import_error">Błąd importu</string>
+    <string name="import_confirm_merge">Połącz</string>
+    <string name="import_confirm_title">Importuj dane</string>
+    <string name="export_started">Eksport rozpoczęty...</string>
+    <string name="export_share">Udostępnij archiwum</string>
+    <string name="settings_import">📥 Importuj dane</string>
+    <string name="import_success">Import zakończony</string>
+    <string name="import_restart">Import zakończony, uruchom ponownie aplikację</string>
+    <string name="import_confirm_replace">Zastąp</string>
+    <string name="export_saved_to_downloads">Zapisano w Pobranych</string>
+
+    <string name="color_picker_title">Wybierz kolor</string>
+    <string name="color_picker_custom">Własny kolor (dotknij aby edytować)</string>
+    <string name="export_notification_notes">Eksport: notatki</string>
+    <string name="export_notification_manifest">Eksport: manifest</string>
+    <string name="export_notification_preparing">Przygotowywanie eksportu...</string>
+    <string name="import_notification_complete">Import zakończony</string>
+    <string name="export_channel_name">Eksport/Import</string>
+    <string name="import_notification_error">Błąd importu</string>
+    <string name="export_notification_complete">Eksport zakończony</string>
+    <string name="import_notification_preparing">Przygotowywanie importu...</string>
+    <string name="export_notification_files">Eksport: pliki</string>
+    <string name="export_notification_error">Błąd eksportu</string>
+    <string name="date_dialog_title_format">📅 %1$d %2$s</string>
+</resources>

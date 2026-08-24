@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lovestor(age)y</string>
+    <string name="message_format">💖 %s 💖</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete_all">Delete all</string>
+    <string name="error_title">Error</string>
+
+    <!-- Language -->
+    <string name="language_title">Language</string>
+    <string name="language_system">System</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_english">English</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_italian">Italiano</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_polish">Polski</string>
+    <string name="language_turkish">Türkçe</string>
+    <string name="language_arabic">العربية</string>
+
+    <!-- Layout: fragment_gallery -->
+    <string name="gallery_preview_desc">Last photo preview</string>
+    <string name="gallery_open_hint">Tap to open gallery</string>
+
+    <!-- Layout: fragment_files -->
+    <string name="files_preview_desc">Last file preview</string>
+    <string name="files_open_hint">Tap to open all files</string>
+
+    <!-- Layout: fragment_notes -->
+    <string name="notes_search_hint">Search notes…</string>
+    <string name="notes_hint">Write everything that comes to mind here…</string>
+
+    <!-- Layout: fragment_calendar -->
+    <string name="calendar_love_text">I love you so much💖</string>
+    <string name="calendar_quote">Time will pass, but my love for you never will</string>
+
+    <!-- Couple messenger -->
+    <string name="message_dialog_title">Message to partner</string>
+    <string name="message_dialog_hint">Max 20 characters</string>
+    <string name="message_input_hint">Write something…</string>
+    <string name="send">Send</string>
+    <string name="message_send_error">Failed to send</string>
+    <string name="message_last_sent">Last message:</string>
+    <string name="auth_error">Authentication error</string>
+
+    <!-- Auth -->
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="sign_out">Sign out</string>
+    <string name="auth_required">Sign in with Google first</string>
+    <string name="auth_signed_in">Signed in as %s</string>
+
+    <!-- Pairing -->
+    <string name="pairing_title">Pair with partner</string>
+    <string name="pairing_create">Create pair</string>
+    <string name="pairing_or">— or —</string>
+    <string name="pairing_join">Join by code</string>
+    <string name="pairing_back">Back</string>
+    <string name="pairing_code_hint">6-character code</string>
+    <string name="pairing_code_title">Your pair code</string>
+    <string name="pairing_code_message">Share this code with your partner:\n\n%s</string>
+    <string name="pairing_code_error">Code must be 6 characters</string>
+    <string name="pairing_success">Paired with partner!</string>
+    <string name="pairing_not_found">Pair not found. Check the code.</string>
+    <string name="pairing_paired">Paired</string>
+    <string name="pairing_not_paired">Not paired</string>
+    <string name="pairing_unpair">Unpair</string>
+    <string name="pairing_unpair_title">Unpair from partner?</string>
+    <string name="pairing_unpair_message">Are you sure you want to unpair from your partner?</string>
+    <string name="pairing_unpaired">You have unpaired from your partner</string>
+    <string name="pairing_regenerate">Regenerate code</string>
+    <string name="pairing_regenerate_title">Regenerate code?</string>
+    <string name="pairing_regenerate_message">The old code will stop working. Your partner will need to log in again.</string>
+    <string name="ok">OK</string>
+    <string name="default_web_client_id">633769435038-5jne4601lve97h3r0ai1eg08j3v21raj.apps.googleusercontent.com</string>
+
+    <!-- Layout: item_note -->
+    <string name="note_placeholder">Note text…</string>
+    <string name="note_pin_desc">Pin</string>
+    <string name="note_edit_desc">Edit</string>
+    <string name="note_delete_desc">Delete</string>
+
+    <!-- Layout: item_file -->
+    <string name="file_preview_desc">File preview</string>
+    <string name="video_play_desc">Play video</string>
+
+    <!-- Layout: item_calendar_month -->
+    <string name="month_default">January</string>
+
+    <!-- Layout: activity_lock_screen -->
+    <string name="lock_welcome">Welcome</string>
+    <string name="lock_prompt">Enter PIN or use biometrics</string>
+    <string name="lock_login">Log in</string>
+
+    <!-- Layout: dialog_date_range_picker -->
+    <string name="date_range_from">from</string>
+    <string name="date_range_to">to</string>
+    <string name="date_range_close">Close</string>
+    <string name="date_range_save">Save</string>
+
+    <!-- Layout: fragment_settings -->
+    <string name="settings_date_to">to</string>
+    <string name="settings_title_label">⚙️ Settings</string>
+    <string name="settings_date_range">📅 Range: from</string>
+    <string name="settings_vibration">📳 Vibration</string>
+    <string name="settings_auth">🔒 App protection</string>
+    <string name="settings_lock_timeout">⏱ Lock after</string>
+    <string name="settings_lock_timeout_value">1 min</string>
+    <string name="settings_language">🌐 Language</string>
+    <string name="settings_background">🎨 App background</string>
+    <string name="settings_background_default">Default</string>
+    <string name="settings_background_set">Choose image</string>
+    <string name="settings_background_clear">Remove background</string>
+    <string name="settings_glass_opacity">Interface transparency</string>
+    <string name="settings_dialog_opacity">Dialog transparency</string>
+    <string name="settings_font_color">Font color</string>
+    <string name="settings_statistics">📊 Statistics</string>
+    <string name="stats_photos_placeholder">📸 Photos: 0</string>
+    <string name="stats_files_placeholder">📁 Files: 0</string>
+    <string name="stats_calendar_files_placeholder">📅 Date files: 0</string>
+    <string name="stats_notes_placeholder">📝 Notes: 0</string>
+    <string name="stats_storage_placeholder">💾 Storage: 0 MB</string>
+
+    <!-- Layout: fragment_calendar -->
+    <string name="calendar_button">💌 Press the button 💌</string>
+
+    <!-- Layout: fragment_notes -->
+    <string name="notes_title_label">📝 My thoughts</string>
+    <string name="notes_save_button">💖 Save note</string>
+    <string name="notes_save">💾 Save</string>
+    <string name="notes_cancel">❌ Cancel</string>
+    <string name="notes_saved_label">📋 My saved notes:</string>
+
+    <!-- Layout: fragment_files -->
+    <string name="files_last_file">📄 Last file</string>
+
+    <!-- Layout: fragment_gallery -->
+    <string name="gallery_last_photo">📸 Last photo</string>
+
+    <!-- Layout: dialog_date_simple -->
+    <string name="date_dialog_example">📅 February 14</string>
+    <string name="date_files_title">📁 Files for this date</string>
+    <string name="date_files_zero">📁 Files: 0</string>
+
+    <!-- Layout: dialog_page_files -->
+    <string name="dialog_files_title">📁 All files</string>
+    <string name="dialog_files_count">📁 Files: 0</string>
+
+    <!-- Layout: dialog_page_gallery -->
+    <string name="dialog_photos_title">🖼️ All photos</string>
+    <string name="dialog_photos_count">🖼️ Photos: 0</string>
+
+
+    <!-- Delete dialog -->
+    <string name="delete_all_title">Delete all files?</string>
+    <string name="delete_all_message">Are you sure you want to delete all files? This action cannot be undone.</string>
+    <string name="delete_all_date_message">Are you sure you want to delete all files for this date? This action cannot be undone.</string>
+
+    <!-- MainActivity -->
+    <string name="permissions_not_granted">Some permissions were not granted</string>
+
+    <!-- Gallery -->
+    <string name="gallery_description">Here will be our most beautiful photos</string>
+    <string name="pick_photos_title">Select photos</string>
+    <string name="slideshow_counter">Slideshow: %1$d/%2$d</string>
+    <string name="slideshow_interval_title">Slide interval</string>
+    <string name="interval_3_sec">3 sec</string>
+    <string name="interval_5_sec">5 sec</string>
+    <string name="interval_7_sec">7 sec (default)</string>
+    <string name="interval_10_sec">10 sec</string>
+    <string name="interval_15_sec">15 sec</string>
+    <string name="slideshow_started">Slideshow started</string>
+    <string name="slideshow_stopped">Slideshow stopped</string>
+
+    <!-- Files -->
+    <string name="files_title">\uD83E\uDD7A</string>
+    <string name="files_subtitle">All our files in one place</string>
+    <string name="pick_files_title">Select files</string>
+    <string name="no_files_message">No files uploaded\nPress \uD83D\uDCE5 to add</string>
+    <string name="no_file_picker">No file picker app available</string>
+
+    <!-- Notes -->
+    <string name="notes_title">\uD83D\uDCDD My thoughts</string>
+    <string name="note_hint_add">Write everything that comes to mind here…</string>
+    <string name="note_hint_edit">Edit note…</string>
+    <string name="note_saved_toast">Note saved!</string>
+    <string name="note_empty_warning">Write something before saving</string>
+    <string name="note_editing_toast">Editing note</string>
+    <string name="note_updated_toast">Note updated!</string>
+    <string name="note_empty_error">Note cannot be empty</string>
+    <string name="note_deleted">Note deleted</string>
+    <string name="undo">Undo</string>
+
+    <!-- Settings -->
+    <string name="settings_title">\u2699\uFE0F Settings</string>
+    <string name="error_date_range_invalid">Start date cannot be later than end date</string>
+    <string name="nickname_title">Change nickname</string>
+    <string name="nickname_updated">Nickname updated</string>
+    <string name="nickname_label">Nickname</string>
+    <string name="message_placeholder">—</string>
+    <string name="partner_default">Partner</string>
+    <string name="me_default">Me</string>
+    <string name="waiting_partner">waiting for partner</string>
+    <string name="pairing_info_message">You: %1$s\nPartner: %2$s\nCode: %3$s</string>
+    <string name="signin_error">Sign-in error: %1$d</string>
+    <string name="auth_enabled_toast">Authentication enabled</string>
+    <string name="lock_timeout_dialog_title">Lock after</string>
+    <string name="timeout_immediately">Immediately</string>
+    <string name="timeout_30_sec">30 sec</string>
+    <string name="timeout_1_min">1 min</string>
+    <string name="timeout_5_min">5 min</string>
+    <string name="timeout_15_min">15 min</string>
+    <string name="timeout_30_min">30 min</string>
+    <string name="timeout_1_hour">1 hour</string>
+    <string name="timeout_never">Never</string>
+
+    <!-- Biometric -->
+    <string name="biometric_setup_title">Security setup</string>
+    <string name="biometric_setup_subtitle">Confirm with fingerprint or face</string>
+    <string name="biometric_negative_button">Cancel</string>
+    <string name="biometric_app_title">App login</string>
+    <string name="biometric_app_subtitle">Use fingerprint or face</string>
+    <string name="enter_pin">Enter PIN</string>
+
+    <!-- PIN -->
+    <string name="pin_title">PIN code</string>
+    <string name="pin_setup_message">Enter a 4-digit PIN for backup access:</string>
+    <string name="pin_saved_toast">PIN saved</string>
+    <string name="pin_validation_error">PIN must contain exactly 4 digits</string>
+    <string name="pin_enter_prompt">Enter PIN code</string>
+    <string name="pin_incorrect_remaining">Incorrect PIN. Attempts left: %d</string>
+    <string name="lockout_countdown">Locked: %d sec.</string>
+
+    <!-- Statistics -->
+    <string name="stats_photos">\uD83D\uDCF8 Photos: %d</string>
+    <string name="stats_files">\uD83D\uDCC1 Files: %d</string>
+    <string name="stats_calendar_files">\uD83D\uDCC5 Date files: %d</string>
+    <string name="stats_storage">\uD83D\uDCBE Storage: %.1f MB</string>
+    <string name="stats_notes">\uD83D\uDCDD Notes: %d</string>
+
+    <!-- Gallery/Files dialogs -->
+    <string name="dialog_all_photos">\uD83D\uDDBC️ All photos</string>
+    <string name="dialog_photos_prefix">\uD83D\uDDBC️ Photos:</string>
+    <string name="dialog_all_files">\uD83D\uDCC1 All files</string>
+    <string name="dialog_files_prefix">\uD83D\uDCC1 Files:</string>
+
+    <!-- Date dialog -->
+    <string name="date_files_count">\uD83D\uDCC1 Files: %d</string>
+    <string name="pick_files_for_date">Select files for date</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Exact reminders</string>
+    <string name="notification_channel_desc">Notifications at exact time</string>
+    <string name="notification_channel_messages_name">Partner messages</string>
+    <string name="notification_channel_messages_desc">Notifications for messages from partner</string>
+    <string name="notification_morning_title">\uD83D\uDC1D Good morning, honey \uD83D\uDC96</string>
+    <string name="notification_morning_text">May your day bring you only joy, I love you</string>
+    <string name="notification_night_title">\uD83C\uDF19 Good night, my little one \uD83D\uDC95</string>
+    <string name="notification_night_text">I love you so much. Kissing, hugging</string>
+    <string name="notification_random_title">Warmth from me \uD83D\uDC96</string>
+
+    <!-- File errors -->
+    <string name="error_open_image">Could not open image</string>
+    <string name="error_file_not_found">File not found</string>
+    <string name="error_install_file_app">Install an app to open files</string>
+    <string name="error_open_file">Could not open file</string>
+
+    <!-- Holidays -->
+    <string name="holiday_new_year">New Year</string>
+    <string name="holiday_valentines_day">Valentine\'s Day</string>
+    <string name="holiday_defender_day">Defender of the Fatherland Day</string>
+    <string name="holiday_womens_day">International Women\'s Day</string>
+    <string name="holiday_spring_labor">Spring and Labor Day</string>
+    <string name="holiday_victory_day">Victory Day</string>
+    <string name="holiday_russia_day">Russia Day</string>
+    <string name="holiday_unity_day">National Unity Day</string>
+
+    <!-- Months (nominative) -->
+    <string name="month_january">January</string>
+    <string name="month_february">February</string>
+    <string name="month_march">March</string>
+    <string name="month_april">April</string>
+    <string name="month_may">May</string>
+    <string name="month_june">June</string>
+    <string name="month_july">July</string>
+    <string name="month_august">August</string>
+    <string name="month_september">September</string>
+    <string name="month_october">October</string>
+    <string name="month_november">November</string>
+    <string name="month_december">December</string>
+
+    <!-- Months (genitive — same as nominative in English) -->
+    <string name="month_genitive_january">January</string>
+    <string name="month_genitive_february">February</string>
+    <string name="month_genitive_march">March</string>
+    <string name="month_genitive_april">April</string>
+    <string name="month_genitive_may">May</string>
+    <string name="month_genitive_june">June</string>
+    <string name="month_genitive_july">July</string>
+    <string name="month_genitive_august">August</string>
+    <string name="month_genitive_september">September</string>
+    <string name="month_genitive_october">October</string>
+    <string name="month_genitive_november">November</string>
+    <string name="month_genitive_december">December</string>
+
+    <!-- Secret messages -->
+    <string-array name="secret_messages">
+        <item>With you I feel like the happiest person in the world</item>
+        <item>You are my soulmate, my destiny</item>
+        <item>I love you more than words can express</item>
+        <item>You make every day of mine better</item>
+        <item>My world became brighter when you appeared in my life</item>
+        <item>I want to spend the rest of my life with you</item>
+        <item>You are the best thing that ever happened to me</item>
+        <item>I miss you every minute we are apart</item>
+        <item>Your smile is my favorite light</item>
+        <item>I am grateful to fate for having you</item>
+        <item>You are my love, my life, my universe</item>
+        <item>Every day with you is a gift</item>
+        <item>I love you like I never thought I could love</item>
+        <item>You are my home, my quiet harbor</item>
+        <item>With you I became better</item>
+        <item>You are the most beautiful thing I have ever seen</item>
+        <item>I want to hug you every morning and every evening</item>
+        <item>You are my muse, my inspiration</item>
+        <item>I love our little moments together</item>
+        <item>You are the only one I want to see every morning</item>
+        <item>My love for you grows every day</item>
+        <item>You are my happiness, my joy</item>
+        <item>I want to be by your side always</item>
+        <item>You are my light in the darkness</item>
+        <item>I love you for who you are</item>
+        <item>You are my future</item>
+        <item>With you I am ready for anything</item>
+        <item>You are the most valuable thing I have</item>
+        <item>I want to create a million memories with you</item>
+        <item>You are my eternal love</item>
+        <item>I love you more than yesterday, less than tomorrow</item>
+        <item>You are my heart, my soul</item>
+        <item>I want to give you flowers every day</item>
+        <item>You are my ideal</item>
+        <item>I love our walks under the moon</item>
+        <item>You are my magic</item>
+        <item>I want to wake up next to you every morning</item>
+        <item>You are my tenderness, my care</item>
+        <item>I love you with all my heart</item>
+        <item>You are my inspiration to live</item>
+        <item>I want to be your support and protection</item>
+        <item>You are my delight</item>
+        <item>I love our nights together</item>
+        <item>You are my morning, my day, my night</item>
+        <item>I want to hold you so tight that you feel my love</item>
+        <item>You are my miracle</item>
+        <item>I love you endlessly</item>
+        <item>You are my peace</item>
+        <item>I want to be with you when the sun sets and rises</item>
+        <item>You are my beauty</item>
+        <item>I love our kisses</item>
+        <item>You are my sun</item>
+        <item>I want to hold your hand for life</item>
+        <item>You are my dream</item>
+        <item>I love you more than anything in the world</item>
+        <item>You are my treasure</item>
+        <item>I want to kiss you every day</item>
+        <item>You are my star</item>
+        <item>I love our talks until morning</item>
+        <item>You are my everything</item>
+        <item>I want to be with you forever</item>
+        <item>You are my love forever</item>
+        <item>I love you so much it is impossible to describe</item>
+        <item>You are my happiness</item>
+        <item>I want to hug you and never let go</item>
+        <item>You are my life</item>
+        <item>I love our little jokes</item>
+        <item>You are my inspiration</item>
+        <item>I want to be by your side forever</item>
+        <item>You are my world</item>
+        <item>I love you more than life</item>
+        <item>You are my heart</item>
+        <item>I want to give you happiness every day</item>
+        <item>You are my delight</item>
+        <item>I love our moments together</item>
+        <item>You are my magic</item>
+        <item>You are my tenderness</item>
+        <item>I love you with all my heart and soul</item>
+        <item>You are my inspiration</item>
+        <item>I want to hug you every night</item>
+        <item>You are my joy</item>
+        <item>I love our mornings together</item>
+        <item>You are my sun</item>
+        <item>I want to be with you always and everywhere</item>
+        <item>You are my love</item>
+        <item>I love you more than words</item>
+        <item>You are my happiness</item>
+        <item>I want to give you flowers</item>
+        <item>You are my star</item>
+        <item>I love our kisses</item>
+        <item>You are my heart</item>
+        <item>I want to be with you forever</item>
+        <item>You are my life</item>
+        <item>I love you endlessly</item>
+        <item>You are my inspiration</item>
+        <item>I want to hug you</item>
+        <item>You are my delight</item>
+        <item>I love our moments</item>
+        <item>You are my magic</item>
+        <item>I want to be by your side</item>
+        <item>You are my tenderness</item>
+        <item>I love you</item>
+        <item>You are my happiness</item>
+    </string-array>
+
+    <string-array name="random_notification_messages">
+        <item>I am thinking about you right now</item>
+        <item>You are always in my thoughts</item>
+        <item>I miss you</item>
+        <item>I love you</item>
+        <item>You are the best in me</item>
+        <item>I want to hug you</item>
+        <item>You are my sun</item>
+        <item>Thank you for being here</item>
+        <item>I am happy with you</item>
+        <item>You are my love</item>
+        <item>Thinking of you</item>
+        <item>Miss you</item>
+        <item>Love you</item>
+        <item>Hugging you</item>
+        <item>You are the best thing that happened</item>
+        <item>Hugging tight</item>
+        <item>You are my world</item>
+        <item>Thank you for everything</item>
+        <item>Happy every day</item>
+        <item>Love you endlessly</item>
+        <item>You are my inspiration</item>
+        <item>Miss you every minute</item>
+        <item>Love you with all my heart</item>
+        <item>I want to be by your side</item>
+        <item>You are my joy</item>
+        <item>Thinking about our moments</item>
+        <item>Missing your hugs</item>
+        <item>Love our story</item>
+        <item>You are my peace</item>
+        <item>Want to kiss you</item>
+        <item>You are my tenderness</item>
+        <item>Thinking about our future</item>
+        <item>Missing your voice</item>
+        <item>Love our conversations</item>
+        <item>You are my delight</item>
+        <item>Want to hold your hand</item>
+        <item>You are my light</item>
+        <item>Thinking about your smile</item>
+        <item>Missing your kisses</item>
+        <item>Love our walks together</item>
+        <item>You are my miracle</item>
+        <item>Want to wake up next to you</item>
+        <item>You are my dream</item>
+        <item>Thinking about your eyes</item>
+        <item>Missing your touch</item>
+        <item>Love our nights together</item>
+        <item>You are my magic</item>
+        <item>Want to hug you every day</item>
+        <item>You are my angel</item>
+        <item>Thinking of you and smiling</item>
+        <item>Missing your warmth</item>
+        <item>Love you more than life</item>
+        <item>You are my universe</item>
+        <item>Want to be your support</item>
+        <item>You are my meaning</item>
+        <item>Thinking of you warms my heart</item>
+        <item>Missing our evenings</item>
+        <item>Love you forever</item>
+        <item>You are my happiness</item>
+        <item>Want to give you flowers</item>
+        <item>You are my star</item>
+    </string-array>
+
+    <!-- Export/Import -->
+    <string name="settings_backup">💾 Backup</string>
+    <string name="settings_export">📤 Export data</string>
+    <string name="settings_import">📥 Import data</string>
+    <string name="export_started">Export started…</string>
+    <string name="export_success">Export completed</string>
+    <string name="export_error">Export error</string>
+    <string name="export_options_title">What to export?</string>
+    <string name="export_option_notes">Notes</string>
+    <string name="export_option_files">Files</string>
+    <string name="export_option_background">Background</string>
+    <string name="export_option_settings">Settings</string>
+    <string name="import_started">Import started…</string>
+    <string name="import_success">Import completed</string>
+    <string name="import_restart">Import completed, please restart the app</string>
+    <string name="import_error">Import error</string>
+    <string name="import_confirm_title">Import data</string>
+    <string name="import_confirm_message">Replace current data with imported?</string>
+    <string name="import_confirm_replace">Replace</string>
+    <string name="import_confirm_merge">Merge</string>
+    <string name="export_share">Share archive</string>
+    <string name="export_saved_to_downloads">Saved to Downloads</string>
+
+    <string name="color_picker_title">Pick a color</string>
+    <string name="color_picker_custom">Custom color (tap to edit)</string>
+    <string name="export_notification_notes">Export: notes</string>
+    <string name="export_notification_manifest">Export: manifest</string>
+    <string name="export_notification_preparing">Preparing export...</string>
+    <string name="import_notification_complete">Import completed</string>
+    <string name="export_channel_name">Export/Import</string>
+    <string name="import_notification_error">Import error</string>
+    <string name="export_notification_complete">Export completed</string>
+    <string name="import_notification_preparing">Preparing import...</string>
+    <string name="export_notification_files">Export: files</string>
+    <string name="export_notification_error">Export error</string>
+    <string name="date_dialog_title_format">📅 %1$d %2$s</string>
+</resources>

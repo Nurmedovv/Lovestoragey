@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🎯 МЕНЮ ДЛЯ НИЖНЕЙ НАВИГАЦИИ С 5 ВКЛАДКАМИ -->
+<!-- Назначение: Навигация между 5 основными экранами приложения -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🖼️ ВКЛАДКА ГАЛЕРЕИ - слева от файлов -->
+    <item
+        android:id="@+id/navigation_gallery"
+        android:title="🖼️" />
+
+    <!-- 🥺 ВКЛАДКА ФАЙЛОВ -->
+    <item
+        android:id="@+id/navigation_files"
+        android:title="🥺" />
+
+    <!-- 📅 ВКЛАДКА КАЛЕНДАРЯ - центральная страница приложения -->
+    <item
+        android:id="@+id/navigation_calendar"
+        android:title="📅" />
+
+    <!-- 📝 ВКЛАДКА ЗАМЕТОК - между календарем и настройками -->
+    <item
+        android:id="@+id/navigation_notes"
+        android:title="📝" />
+
+    <!-- ⚙️ ВКЛАДКА НАСТРОЕК -->
+    <item
+        android:id="@+id/navigation_settings"
+        android:title="⚙️" />
+
+</menu>

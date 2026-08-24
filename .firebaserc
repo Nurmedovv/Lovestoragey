@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "firebase deploy --only functions": "lovestoragey-35295",
+    "default": "lovestoragey-35295"
+  },
+  "targets": {},
+  "etags": {}
+}

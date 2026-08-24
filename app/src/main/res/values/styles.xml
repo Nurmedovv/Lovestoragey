@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- стиль для BottomNavigation -->
+    <style name="BottomNavigationStyle" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconSize">@dimen/bottom_nav_icon_size</item>
+        <item name="android:textSize">@dimen/bottom_nav_text_size</item>
+        <item name="itemPaddingTop">@dimen/bottom_nav_item_padding</item>
+        <item name="itemPaddingBottom">@dimen/bottom_nav_item_padding</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- ДИАЛОГИ — СВЕТЛАЯ ТЕМА                             -->
+    <!-- ═══════════════════════════════════════════════════ -->
+
+    <!-- основной стиль диалогов (светлая тема) -->
+    <style name="LovestoryDialogTheme" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@color/dialog_bg_light</item>
+        <item name="android:textColorPrimary">#FF000000</item>
+        <item name="android:textColorSecondary">#FF666666</item>
+        <item name="colorAccent">#FFFF4081</item>
+        <item name="shapeAppearanceSmallComponent">@style/LovestoryDialogShape</item>
+        <item name="buttonBarPositiveButtonStyle">@style/LovestoryDialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/LovestoryDialogButtonStyle</item>
+    </style>
+
+    <!-- стиль формы с закруглёнными углами -->
+    <style name="LovestoryDialogShape" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <!-- кнопки диалогов — розовые -->
+    <style name="LovestoryDialogButtonStyle" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">#FFFF4081</item>
+    </style>
+
+    <!-- DatePickerDialog (светлая тема) — кнопки розовые -->
+    <style name="LovestoryDatePickerTheme" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@color/dialog_bg_light</item>
+        <item name="android:textColorPrimary">#FF000000</item>
+        <item name="android:textColorSecondary">#FF666666</item>
+        <item name="colorAccent">#FFFF4081</item>
+        <item name="shapeAppearanceSmallComponent">@style/LovestoryDialogShape</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/LovestoryDialogButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/LovestoryDialogButtonStyle</item>
+    </style>
+
+    <!-- старый стиль (для совместимости) -->
+    <style name="CustomDatePickerDialogWithButtons" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:background">#333333</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/WhiteButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/WhiteButtonStyle</item>
+    </style>
+
+    <style name="WhiteButtonStyle" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

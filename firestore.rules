@@ -1,0 +1,103 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /couples/{coupleId} {
+
+      // ---------- вспомогательные функции ----------
+
+      function signedIn() {
+        return request.auth != null;
+      }
+
+      // текущий пользователь — один из двух партнёров
+      function isPartner() {
+        return signedIn() &&
+               (request.auth.uid == resource.data.partner1 ||
+                request.auth.uid == resource.data.partner2);
+      }
+
+      // пара ещё не сформирована: свободен слот partner2
+      function isOpen() {
+        return resource.data.partner2 == "";
+      }
+
+      function isCreating() {
+        return signedIn() &&
+               request.resource.data.partner1 == request.auth.uid &&
+               request.resource.data.partner2 == "";
+      }
+
+      // какие поля меняет запрос (для update request.resource.data —
+      // будущее состояние документа, resource.data — текущее)
+      function changedKeys() {
+        return request.resource.data.diff(resource.data).affectedKeys();
+      }
+
+      // ---------- чтение ----------
+
+      // get: партнёры — всегда; открытую пару может прочитать вступающий
+      // (joinCouple читает документ ДО записи себя в partner2)
+      allow get: if isPartner() || isOpen();
+
+      // list: нужен для поиска пары по коду (запросы в CoupleRepositoryImpl):
+      //   whereEqualTo(partner2, "")             -> закрывается условием isOpen()
+      //   whereEqualTo(partner1, request.auth.uid)
+      //   whereEqualTo(partner2, request.auth.uid)
+      // Каждое условие правила доказуемо из ограничений запроса, поэтому
+      // все три запроса проходят проверку.
+      // ВАЖНО: запрос открытых пар виден всем авторизованным — так устроен
+      // текущий механизм «кода» (префикс id документа).
+      allow list: if signedIn() &&
+                  (isOpen() ||
+                   resource.data.partner1 == request.auth.uid ||
+                   resource.data.partner2 == request.auth.uid);
+
+      // ---------- запись ----------
+
+      allow create: if isCreating();
+
+      allow update: if
+        // вступление в пару: пустой слот partner2 -> я (+ мой токен и имя)
+        (signedIn() &&
+         resource.data.partner2 == "" &&
+         request.resource.data.partner2 == request.auth.uid &&
+         changedKeys().hasOnly(['partner2', 'fcm_tokens', 'names']))
+
+        // партнёр обновляет карту имён (updateMyName)
+        || (isPartner() && changedKeys().hasOnly(['names']))
+
+        // партнёр обновляет свой FCM-токен (refreshFcmToken)
+        || (isPartner() && changedKeys().hasOnly(['fcm_tokens']))
+
+        // отправка сообщения (sendMessage): отправитель = я, лимит 20 символов
+        || (isPartner() &&
+            changedKeys().hasOnly(['message_text', 'message_sender', 'message_timestamp']) &&
+            request.resource.data.message_sender == request.auth.uid &&
+            request.resource.data.message_text.size() <= 20)
+
+        // отвязка partner1 при заполненном partner2: второй становится первым
+        // (unpair: partner1 уходит, документ не удаляем)
+        || (signedIn() &&
+            request.auth.uid == resource.data.partner1 &&
+            resource.data.partner2 != "" &&
+            request.resource.data.partner1 == resource.data.partner2 &&
+            request.resource.data.partner2 == "" &&
+            changedKeys().hasOnly(['partner1', 'partner2',
+                                   'message_text', 'message_sender', 'message_timestamp']))
+
+        // отвязка partner2: освобождает слот и чистит сообщение
+        || (signedIn() &&
+            request.auth.uid == resource.data.partner2 &&
+            request.resource.data.partner2 == "" &&
+            changedKeys().hasOnly(['partner2',
+                                   'message_text', 'message_sender', 'message_timestamp']));
+
+      // удаление пары: только создатель и только пока второй не присоединился
+      // (unpair: partner1 без partner2 удаляет документ)
+      allow delete: if signedIn() &&
+                    resource.data.partner1 == request.auth.uid &&
+                    resource.data.partner2 == "";
+    }
+  }
+}

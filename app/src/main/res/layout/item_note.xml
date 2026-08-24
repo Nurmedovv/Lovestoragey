@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🎯 LAYOUT ДЛЯ ОДНОЙ ЗАМЕТКИ С КНОПКАМИ ДЕЙСТВИЙ -->
+<!-- Назначение: Отображение отдельной заметки в списке -->
+<!-- Особенности: Стеклянный эффект, дата создания, кнопки редактирования/удаления -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/glass_effect"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- 📝 СОДЕРЖАНИЕ ЗАМЕТКИ -->
+    <TextView
+        android:id="@+id/noteContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/note_placeholder"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 📅 ДАТА СОЗДАНИЯ ЗАМЕТКИ И КНОПКИ ДЕЙСТВИЙ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- ДАТА СОЗДАНИЯ -->
+        <TextView
+            android:id="@+id/noteDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="01.01.2024 12:00"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF" />
+
+        <!-- КНОПКА ЗАКРЕПЛЕНИЯ (📌) -->
+        <ImageView
+            android:id="@+id/pinIndicator"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_star_outline"
+            android:contentDescription="@string/note_pin_desc"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- КНОПКА РЕДАКТИРОВАНИЯ (✏️) -->
+        <ImageView
+            android:id="@+id/editButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:src="@android:drawable/ic_menu_edit"
+            android:contentDescription="@string/note_edit_desc"
+            android:tint="#FFFFFF"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- КНОПКА УДАЛЕНИЯ (🗑️) -->
+        <ImageView
+            android:id="@+id/deleteButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:src="@android:drawable/ic_menu_delete"
+            android:contentDescription="@string/note_delete_desc"
+            android:tint="#FF6B6B"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🥺 LAYOUT СТРАНИЦЫ ФАЙЛОВ С ПРЕВЬЮ И ГАЛЕРЕЕЙ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:padding="16dp">
+
+    <!-- 🏷️ ЗАГОЛОВОК СТРАНИЦЫ СТИКЕРА -->
+    <TextView
+        android:id="@+id/filesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🥺"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="6dp" />
+
+    <!-- 📝 ОПИСАНИЕ СТРАНИЦЫ СТИКЕРА -->
+    <TextView
+        android:id="@+id/filesSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/files_subtitle"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 🎯 ОСНОВНОЕ ОКОШКО С ПРЕВЬЮ ПОСЛЕДНЕГО ФАЙЛА -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:background="@drawable/glass_effect"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+
+        <!-- 📋 ЗАГОЛОВОК ПРЕВЬЮ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/files_last_file"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 🖼️ IMAGEVIEW ДЛЯ ПРЕВЬЮ ПОСЛЕДНЕГО ФАЙЛА -->
+        <ImageView
+            android:id="@+id/lastFilePreview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:background="@drawable/glass_effect"
+            android:padding="4dp"
+            android:contentDescription="@string/files_preview_desc" />
+
+        <!-- 📊 ИНФОРМАЦИЯ О ФАЙЛЕ -->
+        <TextView
+            android:id="@+id/lastFileInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/files_open_hint"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- ГОРИЗОНТАЛЬНАЯ ПАНЕЛЬ УПРАВЛЕНИЯ -->
+    <LinearLayout
+        android:id="@+id/filesActionPanel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/nav_bar_glass"
+        android:padding="6dp"
+        android:gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="16dp">
+
+        <!-- 📥 КНОПКА ЗАГРУЗКИ ФАЙЛОВ -->
+        <TextView
+            android:id="@+id/uploadFilesButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📥"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- 📁 КНОПКА ОТКРЫТИЯ ВСЕХ ФАЙЛОВ -->
+        <TextView
+            android:id="@+id/openFilesButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📁"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- 🗑️ КНОПКА УДАЛЕНИЯ ФАЙЛОВ -->
+        <TextView
+            android:id="@+id/deleteFilesButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🗑️"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

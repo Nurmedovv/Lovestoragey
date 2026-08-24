@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 🎯 РАЗМЕРЫ ДЛЯ УВЕЛИЧЕННЫХ СТИКЕРОВ В НАВИГАЦИИ -->
+    <!-- Назначение: Увеличение размера эмодзи в BottomNavigation -->
+    <dimen name="bottom_nav_icon_size">28sp</dimen>
+    <dimen name="bottom_nav_text_size">14sp</dimen>
+    <dimen name="bottom_nav_item_padding">8dp</dimen>
+</resources>

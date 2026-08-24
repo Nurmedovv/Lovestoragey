@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🎯 LAYOUT ДЛЯ ОТОБРАЖЕНИЯ ОДНОГО ФАЙЛА С ВИДИМОЙ КНОПКОЙ PLAY -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="92dp"
+    android:layout_height="112dp"
+    android:orientation="vertical"
+    android:background="@drawable/glass_effect"
+    android:padding="8dp"
+    android:layout_margin="4dp"
+    android:gravity="center"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- 🎯 КОНТЕЙНЕР ДЛЯ ПРЕВЬЮ С ВИДИМОЙ КНОПКОЙ PLAY -->
+    <FrameLayout
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center">
+
+        <!-- Основное превью файла -->
+        <ImageView
+            android:id="@+id/fileIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:contentDescription="@string/file_preview_desc" />
+
+        <!-- 🎯 ВИДИМАЯ КНОПКА PLAY ДЛЯ ВИДЕО -->
+        <ImageView
+            android:id="@+id/videoPlayOverlay"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_custom_play"
+            android:background="@drawable/video_play_button_background"
+            android:scaleType="center"
+            android:visibility="gone"
+            android:contentDescription="@string/video_play_desc" />
+
+    </FrameLayout>
+
+    <!-- 🎯 ДАТА ФАЙЛА -->
+    <TextView
+        android:id="@+id/fileDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01.01.2024"
+        android:textSize="8sp"
+        android:gravity="center"
+        android:layout_marginTop="1dp" />
+
+</LinearLayout>

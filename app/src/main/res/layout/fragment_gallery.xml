@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🖼️ LAYOUT СТРАНИЦЫ ГАЛЕРЕИ С ПРЕВЬЮ И ГАЛЕРЕЕЙ -->
+<!-- 🎯 ИСПРАВЛЕНИЕ: ФОТО ПОДСТРАИВАЕТСЯ ПОД РАЗМЕР ПОЛЯ С ЗАКРУГЛЕНИЕМ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:padding="16dp">
+
+    <!-- 🏷️ ЗАГОЛОВОК ГАЛЕРЕИ -->
+    <TextView
+        android:id="@+id/galleryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🖼️"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="6dp" />
+
+    <!-- 📝 ОПИСАНИЕ ГАЛЕРЕИ -->
+    <TextView
+        android:id="@+id/galleryDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gallery_description"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 🎯 ОСНОВНОЕ ОКОШКО С ПРЕВЬЮ ПОСЛЕДНЕГО ФОТО -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:background="@drawable/glass_effect"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true">
+
+        <!-- 📋 ЗАГОЛОВОК ПРЕВЬЮ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gallery_last_photo"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 🖼️ IMAGEVIEW ДЛЯ ПРЕВЬЮ ПОСЛЕДНЕГО ФАЙЛА -->
+        <!-- 🎯 ИСПРАВЛЕНИЕ: ФОТО ПОДСТРАИВАЕТСЯ ПОД РАЗМЕР ПОЛЯ -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/slideOutView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:padding="4dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/lastPhotoPreview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@drawable/glass_effect"
+                android:padding="4dp"
+                android:contentDescription="@string/gallery_preview_desc" />
+
+        </FrameLayout>
+
+        <!-- 📊 ИНФОРМАЦИЯ О ФАЙЛЕ -->
+        <TextView
+            android:id="@+id/lastPhotoInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gallery_open_hint"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- 🎮 ПАНЕЛЬ УПРАВЛЕНИЯ СЛАЙДШОУ (скрыта по умолчанию) -->
+    <LinearLayout
+        android:id="@+id/slideshowControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/nav_bar_glass"
+        android:padding="4dp"
+        android:gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="4dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/btnSlidePrevious"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="⏮"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+        <TextView
+            android:id="@+id/btnSlidePause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="⏸️"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+        <TextView
+            android:id="@+id/btnSlideNext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="⏭"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+        <TextView
+            android:id="@+id/btnSlideInterval"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="⏱️"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+    </LinearLayout>
+
+    <!-- ГОРИЗОНТАЛЬНАЯ ПАНЕЛЬ УПРАВЛЕНИЯ -->
+    <LinearLayout
+        android:id="@+id/galleryActionPanel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/nav_bar_glass"
+        android:padding="6dp"
+        android:gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="16dp">
+
+        <!-- 📥 КНОПКА ЗАГРУЗКИ ФОТО -->
+        <TextView
+            android:id="@+id/uploadPhotoButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📥"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- 🖼️ КНОПКА ОТКРЫТИЯ ГАЛЕРЕИ -->
+        <TextView
+            android:id="@+id/openGalleryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🖼️"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- 🗑️ КНОПКА УДАЛЕНИЯ ФОТО -->
+        <TextView
+            android:id="@+id/deletePhotosButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🗑️"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
